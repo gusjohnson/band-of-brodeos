@@ -455,6 +455,19 @@ async function renderIndexPage() {
     });
   });
   const cumSorted = Object.entries(cumulative).sort((a,b) => b[1] - a[1]);
+
+  // Rank delta vs. the standings after the previous round.
+  // Positive = climbed, negative = dropped, null = newcomer, undefined = only one round played.
+  const standingsHistory = computeStandingsHistory(history);
+  const rankDelta = {};
+  if (standingsHistory.length >= 2) {
+    const last = standingsHistory[standingsHistory.length - 1];
+    const prev = standingsHistory[standingsHistory.length - 2];
+    Object.keys(last.ranks).forEach(p => {
+      rankDelta[p] = prev.ranks[p] !== undefined ? prev.ranks[p] - last.ranks[p] : null;
+    });
+  }
+
   const canvas = document.getElementById('cumulativeChart');
   if (canvas && cumSorted.length) {
     if (canvas._chart) canvas._chart.destroy();
@@ -476,12 +489,36 @@ async function renderIndexPage() {
           legend: {display: false},
           tooltip: {callbacks: {
             label: ctx => `${ctx.parsed.x} total points`,
-            afterLabel: ctx => `across ${roundsPlayed[cumSorted[ctx.dataIndex][0]]} round(s)`
+            afterLabel: ctx => {
+              const player = cumSorted[ctx.dataIndex][0];
+              const rounds = `across ${roundsPlayed[player]} round(s)`;
+              const d = rankDelta[player];
+              if (d === undefined) return rounds;
+              if (d === null) return `${rounds} · new this round`;
+              if (d === 0) return `${rounds} · rank unchanged`;
+              const arrow = d > 0 ? `▲ +${d}` : `▼ ${d}`;
+              return `${rounds} · rank ${arrow} from last round`;
+            }
           }}
         },
         scales: {
           x: {ticks: {color: colors.text, font: {size: 12}}, grid: {color: colors.grid}},
-          y: {ticks: {color: colors.text, font: {size: 13}}, grid: {display: false}}
+          y: {
+            ticks: {
+              color: colors.text,
+              font: {size: 13},
+              callback: function(_, index) {
+                const player = cumSorted[index][0];
+                const d = rankDelta[player];
+                if (d === undefined) return player;
+                if (d === null) return `${player}  (NEW)`;
+                if (d === 0) return `${player}  (–)`;
+                if (d > 0) return `${player}  (▲${d})`;
+                return `${player}  (▼${Math.abs(d)})`;
+              }
+            },
+            grid: {display: false}
+          }
         }
       }
     });
@@ -491,5 +528,233 @@ async function renderIndexPage() {
   document.getElementById('leagueMeta').textContent =
     `${history.rounds.length} round${history.rounds.length !== 1 ? 's' : ''} · ${Object.keys(cumulative).length} players · ${history.rounds.reduce((a,r) => a + r.songs.length, 0)} total songs submitted`;
 
+  renderMovementSection(history);
+
   window.__rerenderCharts = () => renderIndexPage();
+}
+
+// ----- Standings movement across rounds -----
+const PLAYER_PALETTE = [
+  '#9e00c4', '#3b6d11', '#a32d2d', '#d18c19', '#1f6feb', '#b854a3',
+  '#0b8b8b', '#c46c2d', '#6b3eaa', '#5a8a2a', '#ad2861', '#246b4f',
+  '#825a14', '#4a4f8c', '#7a1f47'
+];
+
+function computeStandingsHistory(history) {
+  // For each round in order, compute cumulative points + rank for every player
+  // who has submitted at least once by that round.
+  const rounds = history.rounds.slice().sort((a, b) => a.round_number - b.round_number);
+  const cumulative = {};
+  const standings = [];
+  rounds.forEach(r => {
+    r.songs.forEach(s => {
+      cumulative[s.submitter] = (cumulative[s.submitter] || 0) + s.total_points;
+    });
+    const sorted = Object.entries(cumulative).sort((a, b) => b[1] - a[1]);
+    const ranks = {};
+    sorted.forEach(([p], i) => { ranks[p] = i + 1; });
+    standings.push({
+      round_number: r.round_number,
+      ranks,
+      points: { ...cumulative }
+    });
+  });
+  return standings;
+}
+
+function renderMovementSection(history) {
+  const standings = computeStandingsHistory(history);
+  const allPlayers = Array.from(
+    new Set(history.rounds.flatMap(r => r.songs.map(s => s.submitter)))
+  ).sort();
+  renderRankChart(standings, allPlayers);
+  renderMovers(standings, history);
+}
+
+function renderRankChart(standings, allPlayers) {
+  const canvas = document.getElementById('rankChart');
+  if (!canvas) return;
+  if (canvas._chart) canvas._chart.destroy();
+  const colors = chartColors();
+  const labels = standings.map(s => `Round ${s.round_number}`);
+  const maxRank = allPlayers.length;
+  const datasets = allPlayers.map((p, i) => ({
+    label: p,
+    data: standings.map(s => s.ranks[p] ?? null),
+    pointsData: standings.map(s => s.points[p] ?? null),
+    borderColor: PLAYER_PALETTE[i % PLAYER_PALETTE.length],
+    backgroundColor: PLAYER_PALETTE[i % PLAYER_PALETTE.length],
+    borderWidth: 2.5,
+    tension: 0.25,
+    pointRadius: 4,
+    pointHoverRadius: 6,
+    spanGaps: false
+  }));
+
+  canvas._chart = new Chart(canvas, {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'nearest', intersect: false },
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: { color: colors.text, font: { size: 12 }, boxWidth: 12, padding: 8 }
+        },
+        tooltip: {
+          callbacks: {
+            label: ctx => {
+              const ds = ctx.dataset;
+              const pts = ds.pointsData[ctx.dataIndex];
+              return `${ds.label}: rank #${ctx.parsed.y} (${pts} pts)`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: { ticks: { color: colors.text, font: { size: 12 } }, grid: { color: colors.grid } },
+        y: {
+          reverse: true,
+          min: 1,
+          max: maxRank,
+          ticks: {
+            color: colors.text,
+            font: { size: 12 },
+            stepSize: 1,
+            callback: v => `#${v}`
+          },
+          grid: { color: colors.grid },
+          title: { display: true, text: 'Cumulative rank', color: colors.text, font: { size: 12 } }
+        }
+      }
+    }
+  });
+}
+
+function renderMovers(standings, history) {
+  const grid = document.getElementById('moversGrid');
+  const note = document.getElementById('moversNote');
+  if (!grid || !note) return;
+  grid.innerHTML = '';
+
+  if (standings.length < 2) {
+    note.textContent = 'Mover comparisons appear once a second round is played.';
+    return;
+  }
+
+  const last = standings[standings.length - 1];
+  const prev = standings[standings.length - 2];
+  const latestRound = history.rounds.find(r => r.round_number === last.round_number);
+
+  // Round-N points per submitter (only for players who submitted this round)
+  const roundPoints = {};
+  latestRound.songs.forEach(s => { roundPoints[s.submitter] = s.total_points; });
+
+  note.textContent = `How round ${last.round_number} reshuffled the cumulative standings vs. after round ${prev.round_number}.`;
+
+  const movers = Object.keys(last.ranks).map(p => {
+    const wasIn = prev.ranks[p] !== undefined;
+    return {
+      player: p,
+      prevRank: wasIn ? prev.ranks[p] : null,
+      newRank: last.ranks[p],
+      delta: wasIn ? prev.ranks[p] - last.ranks[p] : null,
+      isNew: !wasIn,
+      roundPoints: roundPoints[p] ?? null
+    };
+  });
+
+  // Risers (delta > 0)
+  const risers = movers
+    .filter(m => m.delta !== null && m.delta > 0)
+    .sort((a, b) => b.delta - a.delta || a.newRank - b.newRank)
+    .slice(0, 3);
+  // Fallers (delta < 0)
+  const fallers = movers
+    .filter(m => m.delta !== null && m.delta < 0)
+    .sort((a, b) => a.delta - b.delta || a.newRank - b.newRank)
+    .slice(0, 3);
+  // New entrants this round
+  const newcomers = movers.filter(m => m.isNew);
+  // Top scorer this round (single-round point haul)
+  const topRound = movers
+    .filter(m => m.roundPoints !== null)
+    .sort((a, b) => b.roundPoints - a.roundPoints)[0];
+
+  const cards = [];
+  const top = risers[0];
+  if (top) {
+    const rest = risers.slice(1);
+    cards.push({
+      label: `Biggest climb in round ${last.round_number}`,
+      headline: `${top.player} · #${top.prevRank} → #${top.newRank}`,
+      detail: `Moved up ${top.delta} spot${top.delta !== 1 ? 's' : ''}.` +
+        (rest.length ? ` Also climbing: ${rest.map(m => `${m.player} (${m.prevRank}→${m.newRank})`).join(', ')}.` : '')
+    });
+  }
+
+  const worst = fallers[0];
+  if (worst) {
+    const rest = fallers.slice(1);
+    cards.push({
+      label: `Biggest slide in round ${last.round_number}`,
+      headline: `${worst.player} · #${worst.prevRank} → #${worst.newRank}`,
+      detail: `Dropped ${Math.abs(worst.delta)} spot${Math.abs(worst.delta) !== 1 ? 's' : ''}.` +
+        (rest.length ? ` Also slipping: ${rest.map(m => `${m.player} (${m.prevRank}→${m.newRank})`).join(', ')}.` : '')
+    });
+  }
+
+  if (topRound) {
+    cards.push({
+      label: `Biggest round-${last.round_number} haul`,
+      headline: `${topRound.player} — ${topRound.roundPoints} pts`,
+      detail: `Single-round total. Currently #${topRound.newRank} on the cumulative leaderboard.`
+    });
+  }
+
+  const leader = movers.find(m => m.newRank === 1);
+  if (leader && leader.prevRank === 1) {
+    cards.push({
+      label: 'Held the crown',
+      headline: leader.player,
+      detail: `Still #1 after round ${last.round_number}.`
+    });
+  } else if (leader && leader.delta !== null && leader.delta > 0) {
+    cards.push({
+      label: 'New #1',
+      headline: leader.player,
+      detail: `Took over the top spot from #${leader.prevRank}.`
+    });
+  }
+
+  // Stood still: players whose rank didn't change (excluding newcomers)
+  const stuck = movers.filter(m => m.delta === 0);
+  if (stuck.length) {
+    cards.push({
+      label: 'Didn\'t budge',
+      headline: stuck.map(m => `${m.player} (#${m.newRank})`).join(' · '),
+      detail: `Rank unchanged from after round ${prev.round_number}.`
+    });
+  }
+
+  if (newcomers.length) {
+    cards.push({
+      label: 'New this round',
+      headline: newcomers.map(m => `${m.player} (#${m.newRank})`).join(' · '),
+      detail: `First round submitting — entered the standings here.`
+    });
+  }
+
+  cards.forEach(c => {
+    const el = document.createElement('div');
+    el.className = 'fun-card';
+    el.innerHTML = `
+      <div class="label">${escapeHtml(c.label)}</div>
+      <div class="headline">${escapeHtml(c.headline)}</div>
+      <div class="detail">${escapeHtml(c.detail)}</div>
+    `;
+    grid.appendChild(el);
+  });
 }

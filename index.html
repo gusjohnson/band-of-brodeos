@@ -28,6 +28,16 @@
     <div class="chart-wrap" style="height: 520px;">
       <canvas id="cumulativeChart" role="img" aria-label="Cumulative league leaderboard across all rounds">League standings across all rounds.</canvas>
     </div>
+
+    <h2>Standings over time</h2>
+    <p class="chart-note">Each line is a player's cumulative rank after each round. Lower is better — rank 1 sits on top. Hover to see exact rank and points.</p>
+    <div class="chart-wrap" style="height: 460px;">
+      <canvas id="rankChart" role="img" aria-label="Player rank progression across rounds">Rank progression chart.</canvas>
+    </div>
+
+    <h2 id="moversHeading">Biggest movers</h2>
+    <p class="chart-note" id="moversNote"></p>
+    <div class="fun-grid" id="moversGrid"></div>
   </div>
 
   <footer>
