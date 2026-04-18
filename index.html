@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Band of Brodeos — Music League</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="accent-bar"></div>
+<div class="container">
+  <header>
+    <h1>The Band of Brodeos</h1>
+    <div class="sub">Music League · <span id="leagueMeta">Loading…</span></div>
+  </header>
+
+  <nav>
+    <a href="index.html" class="active">Overview</a>
+    <button class="theme-toggle" onclick="toggleTheme()">Toggle theme</button>
+  </nav>
+
+  <div id="content">
+    <h2>Rounds</h2>
+    <div class="round-list" id="roundList"></div>
+
+    <h2>Cumulative leaderboard</h2>
+    <p class="chart-note">Total points earned as a submitter across all rounds played so far.</p>
+    <div class="chart-wrap" style="height: 520px;">
+      <canvas id="cumulativeChart" role="img" aria-label="Cumulative league leaderboard across all rounds">League standings across all rounds.</canvas>
+    </div>
+  </div>
+
+  <footer>
+    Generated from Music League export data.
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="app.js"></script>
+<script>renderIndexPage();</script>
+</body>
+</html>

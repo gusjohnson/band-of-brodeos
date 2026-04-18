@@ -1,0 +1,599 @@
+{
+  "league": "The Band of Brodeos",
+  "rounds": [
+    {
+      "round_number": 1,
+      "theme": "Covers",
+      "description": "Songs previously recorded by another artist",
+      "songs": [
+        {
+          "rank": 1,
+          "title": "99 Red Balloons",
+          "artist": "Goldfinger",
+          "album": "Stomping Ground",
+          "submitter": "Kevin O'Connell",
+          "total_points": 12,
+          "voter_count": 10,
+          "votes": [
+            {
+              "voter": "Nick DePinho",
+              "vote": 3,
+              "comment": "This song rules!"
+            },
+            {
+              "voter": "crob663",
+              "vote": 2,
+              "comment": "Scott or Kevin or shoot maybe Christian"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "title": "Valerie (feat. Amy Winehouse) - Version Revisited",
+          "artist": "Mark Ronson",
+          "album": "Version",
+          "submitter": "Paul Harnish",
+          "total_points": 10,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Either Paul or Dan"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "title": "Smooth Criminal",
+          "artist": "Alien Ant Farm",
+          "album": "Anthology",
+          "submitter": "Michael Neidhardt",
+          "total_points": 9,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 3,
+              "comment": "Scott I think was here"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 2,
+              "comment": "Crob???"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": "Classic cover! | Dan Ornstein"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "title": "I Will Always Love You",
+          "artist": "Whitney Houston",
+          "album": "The Bodyguard - Original Soundtrack Album",
+          "submitter": "DJ Scarp",
+          "total_points": 9,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": "Andy 101%"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Andrew obviously"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "title": "Zombie (Live from the NIVA Save Our Stages Festival)",
+          "artist": "Miley Cyrus",
+          "album": "Plastic Hearts",
+          "submitter": "Christian Carmody",
+          "total_points": 7,
+          "voter_count": 10,
+          "votes": [
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "GOAT\u2019d cover"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Mike for sure | Paul Harnish"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "title": "Fast Car",
+          "artist": "Luke Combs",
+          "album": "Gettin' Old",
+          "submitter": "Dan Ornstein",
+          "total_points": 7,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "Jordan Katz",
+              "vote": 3,
+              "comment": "Best cover in a long time! Just saw him in concert"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Katz definitely | dmdoyle1313"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "title": "Dragula",
+          "artist": "\"The Professor\" Nick Harrison",
+          "album": "Art Official Soul",
+          "submitter": "Jordan Katz",
+          "total_points": 7,
+          "voter_count": 10,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 2,
+              "comment": "Christian???"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 2,
+              "comment": "Is this not the real version and Rob Zombie did the cover? Or the other way around? | This could be Christian\u2019s submission"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": "The OG song is better"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "title": "All Along the Watchtower",
+          "artist": "Jimi Hendrix",
+          "album": "Electric Ladyland",
+          "submitter": "dmdoyle1313",
+          "total_points": 6,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Either Gus or Christian"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "title": "Respect",
+          "artist": "Aretha Franklin",
+          "album": "Soul Queen",
+          "submitter": "Nick DePinho",
+          "total_points": 5,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Paul Harnish",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Paul | Nick DePinho | Gay | Michael Neidhardt"
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "title": "Ocean Eyes",
+          "artist": "The Gaslight Anthem",
+          "album": "History Books (Expanded Edition)",
+          "submitter": "Andrew Caccioppoli",
+          "total_points": 4,
+          "voter_count": 4,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "I\u2019ve got this on my covers playlist, great song!"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Has to be Dave"
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "title": "You're a Mean One, Mr. Grinch",
+          "artist": "Small Town Titans",
+          "album": "You're a Mean One, Mr. Grinch",
+          "submitter": "crob663",
+          "total_points": 2,
+          "voter_count": 4,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "Hysterical and awesome!"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "title": "Hey Ya",
+          "artist": "Surfer Blood",
+          "album": "Covers",
+          "submitter": "Gus Johnson",
+          "total_points": -4,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Gus? | dmdoyle1313 | Gus 100%"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -2,
+              "comment": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
