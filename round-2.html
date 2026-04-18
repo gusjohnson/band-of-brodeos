@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Round 2 — The Band of Brodeos</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="accent-bar"></div>
+<div class="container">
+  <header>
+    <h1 id="round-title">Loading…</h1>
+    <div class="sub" id="round-desc"></div>
+  </header>
+
+  <nav>
+    <a href="index.html">Overview</a>
+    <a href="round-1.html">Round 1</a>
+    <a href="round-2.html" class="active">Round 2</a>
+    <button class="theme-toggle" onclick="toggleTheme()">Toggle theme</button>
+  </nav>
+
+  <div id="content">
+    <div class="tabs">
+      <button class="tab active" data-tab="leaderboard">Leaderboard</button>
+      <button class="tab" data-tab="songs">Songs</button>
+      <button class="tab" data-tab="heatmap">Vote heatmap</button>
+      <button class="tab" data-tab="voters">Voter behavior</button>
+      <button class="tab" data-tab="fun">Fun facts</button>
+    </div>
+
+    <div class="panel active" data-panel="leaderboard">
+      <div class="chart-wrap">
+        <canvas id="leaderboardChart" role="img" aria-label="Round leaderboard by submitter points">Round leaderboard.</canvas>
+      </div>
+    </div>
+
+    <div class="panel" data-panel="songs">
+      <p class="chart-note">Tap any song to see individual votes and comments.</p>
+      <div id="songList"></div>
+    </div>
+
+    <div class="panel" data-panel="heatmap">
+      <p class="chart-note">Rows = voters. Columns = submitters. Greens are upvotes, reds are downvotes. Hover a cell for details.</p>
+      <div class="heatmap-wrap" id="heatmapWrap"></div>
+      <div class="legend">
+        <span><span class="legend-swatch" style="background:#a32d2d;"></span>-3</span>
+        <span><span class="legend-swatch" style="background:#e24b4a;"></span>-2</span>
+        <span><span class="legend-swatch" style="background:#f09595;"></span>-1</span>
+        <span><span class="legend-swatch" style="background:rgba(127,127,127,0.12);"></span>0</span>
+        <span><span class="legend-swatch" style="background:#97c459;"></span>+1</span>
+        <span><span class="legend-swatch" style="background:#639922;"></span>+2</span>
+        <span><span class="legend-swatch" style="background:#3b6d11;"></span>+3</span>
+      </div>
+    </div>
+
+    <div class="panel" data-panel="voters">
+      <p class="chart-note">Everyone starts with 8 upvote points to give. This shows how liberally each player reached for the downvote button on top.</p>
+      <div class="chart-wrap">
+        <canvas id="voterChart" role="img" aria-label="Upvote and downvote points given per player">Voter behavior chart.</canvas>
+      </div>
+    </div>
+
+    <div class="panel" data-panel="fun">
+      <div class="fun-grid" id="funGrid"></div>
+    </div>
+  </div>
+
+  <footer>
+    Generated from Music League export data.
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="app.js"></script>
+<script>
+  initTabs();
+  renderRoundPage(2);
+</script>
+</body>
+</html>

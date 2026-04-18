@@ -594,6 +594,616 @@
           ]
         }
       ]
+    },
+    {
+      "round_number": 2,
+      "theme": "Guilty Pleasures",
+      "description": "Songs you genuinely love, but you're a little embarassed to like",
+      "songs": [
+        {
+          "rank": 1,
+          "title": "Come Clean",
+          "artist": "Hilary Duff",
+          "album": "Metamorphosis",
+          "submitter": "Jordan Katz",
+          "total_points": 21,
+          "voter_count": 11,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 3,
+              "comment": "Pretty much a perfect pick for the category. Hard to top this one"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 2,
+              "comment": "Katz for sure, goatd pick"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "title": "Unwritten",
+          "artist": "Natasha Bedingfield",
+          "album": "Unwritten",
+          "submitter": "Nick DePinho",
+          "total_points": 12,
+          "voter_count": 11,
+          "votes": [
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "OG"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "title": "Wannabe",
+          "artist": "Spice Girls",
+          "album": "Spice",
+          "submitter": "Alex Ankier",
+          "total_points": 11,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 3,
+              "comment": "Kevin"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "title": "I'll Make a Man Out of You",
+          "artist": "Donny Osmond",
+          "album": "Mulan (Original Soundtrack)",
+          "submitter": "DJ Scarp",
+          "total_points": 9,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "Alex Ankier",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 2,
+              "comment": "Kevin or Scott"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 2,
+              "comment": "Kevin?"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 2,
+              "comment": "Elite Disney pick"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "One of Disney\u2019s best, not a \u201cgp\u201d"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "title": "That's the Way It Is",
+          "artist": "C\u00e9line Dion",
+          "album": "Love Again (Soundtrack from the Motion Picture)",
+          "submitter": "Christian Carmody",
+          "total_points": 8,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Celine\u2019s passion"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "title": "Put Your Records On",
+          "artist": "Corinne Bailey Rae",
+          "album": "Corinne Bailey Rae",
+          "submitter": "dmdoyle1313",
+          "total_points": 8,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Paul Harnish",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 2,
+              "comment": "ELITE pick"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Dave is that you?"
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": "Just a really good song. Nothing guilty about it"
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "title": "Baby",
+          "artist": "Justin Bieber",
+          "album": "My World 2.0",
+          "submitter": "Paul Harnish",
+          "total_points": 3,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "CLASSIC!"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "title": "The Great Escape",
+          "artist": "BOYS LIKE GIRLS",
+          "album": "Boys Like Girls",
+          "submitter": "Michael Neidhardt",
+          "total_points": 3,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "Dan Ornstein",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": "Great song, idk about guilty pleasure lmao"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "title": "Promiscuous",
+          "artist": "Nelly Furtado",
+          "album": "Loose",
+          "submitter": "Gus Johnson",
+          "total_points": 3,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": "Scott?"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "title": "Voices in My Head",
+          "artist": "Ashley Tisdale",
+          "album": "Symptoms",
+          "submitter": "Dan Ornstein",
+          "total_points": 1,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Nick DePinho",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "title": "Messy",
+          "artist": "Lola Young",
+          "album": "Messy",
+          "submitter": "Kevin O'Connell",
+          "total_points": 1,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 2,
+              "comment": "Never heard it before, but genuinely enjoyed this song. Feels like a Gus pick."
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "title": "no tears left to cry",
+          "artist": "Ariana Grande",
+          "album": "Sweetener",
+          "submitter": "Andrew Caccioppoli",
+          "total_points": 0,
+          "voter_count": 4,
+          "votes": [
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "Had to put the last downvote somewhere, I like other songs of hers better"
+            }
+          ]
+        },
+        {
+          "rank": 13,
+          "title": "We Know The Way",
+          "artist": "Opetaia Foa'i",
+          "album": "Moana (Original Motion Picture Soundtrack/Deluxe Edition)",
+          "submitter": "crob663",
+          "total_points": -2,
+          "voter_count": 4,
+          "votes": [
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }
