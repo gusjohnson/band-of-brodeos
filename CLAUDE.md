@@ -4,7 +4,9 @@ This repo is a static GitHub Pages site showing Music League round results.
 
 ## When I ask you to "add round N":
 
-1. Find the new round's HTM file in `rounds-raw/round-N.htm`.
+1. Find the new round's HTM file in `rounds-raw/` — Music League
+   downloads save as `Music League _ The Band of Brodeos _ <round name>.htm`.
+   Match by round name; don't rename the file.
 2. Parse it (see `scripts/parse_round.py` for the BeautifulSoup approach — 
    song-level containers are `div.card.mb-4`, vote rows live in the 
    `card-footer` element of each).
