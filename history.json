@@ -1234,6 +1234,706 @@
           ]
         }
       ]
+    },
+    {
+      "round_number": 3,
+      "theme": "Pump Me Up",
+      "description": "Great songs for a workout playlist",
+      "songs": [
+        {
+          "rank": 1,
+          "title": "Break Stuff",
+          "artist": "Limp Bizkit",
+          "album": "Significant Other",
+          "submitter": "Gus Johnson",
+          "total_points": 18,
+          "voter_count": 10,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 3,
+              "comment": "Gus. Good memz jamming to this song on our 6th grade bus home. We were so cool bc we knew all the words (especially the bad words). This makes me want to break stuff!!"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 2,
+              "comment": "Fred Durst at his bestIs this Barto?"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 2,
+              "comment": "Johnny Drama"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Classic"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Classic, prefer korn but still gets the vote. 1 point to Hufflepuff"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "title": "Down with the Sickness",
+          "artist": "Disturbed",
+          "album": "The Sickness",
+          "submitter": "Michael Neidhardt",
+          "total_points": 15,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Dan Ornstein",
+              "vote": 3,
+              "comment": "Mike?"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 2,
+              "comment": "Scott?"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 2,
+              "comment": "I remember this being the song I put on as yall took the field for varsity baseball"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "ClassicKev?"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "ScottOverplayed and overrated Disturbed song in my opinion. But not a bad song just didn\u2019t have enough +\u2019s"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Respect"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "title": "A Boy Brushed Red Living In Black And White",
+          "artist": "Underoath",
+          "album": "They're Only Chasing Safety",
+          "submitter": "Dan Ornstein",
+          "total_points": 11,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Gus Johnson",
+              "vote": 3,
+              "comment": "Good song Mike"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 3,
+              "comment": "Mike for sure"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": "Absolutely. Edge goes to \u201cNew Noise\u201d for new song find, but close 2nd. 2 points to Ravenclaw"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Mike 4 sureRight amount of screaming:singing ratio in my opinion"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "Would probably put this on my playlist. Guessing it\u2019s the guy who introduced me to this band. GB"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Mike"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "title": "X Gon' Give It To Ya",
+          "artist": "DMX",
+          "album": "The Definition Of X: Pick Of The Litter",
+          "submitter": "crob663",
+          "total_points": 10,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Paul Harnish",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 3,
+              "comment": "Elite pick"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "Can\u2019t not recognize this one.Guess: Nick"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Would enjoy with bros before a high heat whiffle game, wouldn\u2019t listen solo."
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "title": "All My Life",
+          "artist": "Foo Fighters",
+          "album": "One By One (Expanded Edition)",
+          "submitter": "Andrew Caccioppoli",
+          "total_points": 9,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "DJ Scarp",
+              "vote": 3,
+              "comment": "Dave"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": "Andy?"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Quality Foo, would totally listen."
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Kevin - who else for foo fighters??"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Great song but not for this round :/Andy?"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "title": "Blow Me Away - Soundtrack Version",
+          "artist": "Breaking Benjamin",
+          "album": "Blow Me Away",
+          "submitter": "Paul Harnish",
+          "total_points": 9,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Christian Carmody",
+              "vote": 3,
+              "comment": "Wow! Completely forgot about this song.  Ready for war.  I can see Crob running to this at West Point.Chris"
+            },
+            {
+              "voter": "crob663",
+              "vote": 2,
+              "comment": "100% Paul, Halo 2 ClassicAlso watch the 300 movie trailer to this song and tell me it doesn\u2019t make you wanna go to war with Iran!"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 2,
+              "comment": "Classic, but too classic"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Would blast if Halo made a comeback."
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "title": "New Noise",
+          "artist": "Refused",
+          "album": "The Shape Of Punk To Come (Deluxe Edition)",
+          "submitter": "Christian Carmody",
+          "total_points": 7,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 3,
+              "comment": "10/10 would listen to in Gym. Plus, new song find. 3 points to Gryffindor"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "ChristianMatty Petrone song! Always played on the varsity field in our pre-game warmups"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 0,
+              "comment": "Dave?"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "title": "Turbulence - Radio Edit",
+          "artist": "Steve Aoki",
+          "album": "Turbulence (Radio Edit)",
+          "submitter": "Nick DePinho",
+          "total_points": 5,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": "Alex?"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Jordan or ChristianThis is one of the Rangers PP Songs. Would have +\u2019d it but ran out"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Not the genre I\u2019d usually go for but this is a banger.  However, there are too many classics on this playlist.  For that\u2026no points!My guess: Dan"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 0,
+              "comment": "Dan?"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "10/10 would enjoy with bros at a rave/party. 0/10 would listen to solo in gym. 1 point from slytherin"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "title": "That's All She Wrote",
+          "artist": "T.I.",
+          "album": "No Mercy",
+          "submitter": "Jordan Katz",
+          "total_points": 4,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Dan Ornstein",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Good base for pump and solid listen to this day."
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Dan?Great duet lol"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": "If this is all it takes to get your blood flowing, you\u2019re a better man for it. A classic but a missKatz ?"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "title": "Beast - Southpaw Remix",
+          "artist": "Rob Bailey & The Hustle Standard",
+          "album": "Southpaw (Music From And Inspired By The Motion Picture)",
+          "submitter": "Alex Ankier",
+          "total_points": 3,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Alex or JordanGreat song! I can feel the acne growing on my chest from all the roids this song makes me wanna take"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Christian or Dan"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Too intense for me but the bars were awesome.Ank?"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Not enough upvotes to go around, solid pick"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "title": "Can You Feel My Heart",
+          "artist": "Bring Me The Horizon",
+          "album": "Sempiternal (Expanded Edition)",
+          "submitter": "DJ Scarp",
+          "total_points": -3,
+          "voter_count": 3,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 0,
+              "comment": "Great song but they have better workout songs on this album, for example \u201cShadow Moses\u201d and \u201cAntivist\u201d"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Andrew \u2014 although I\u2019m having second thoughts based on your comment in the chat about"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "This has to be Mike. Love the song but not enough to get points"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Love the genre, just not a Bring me the Horizon guy."
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "title": "Macho Man",
+          "artist": "Village People",
+          "album": "Macho Man",
+          "submitter": "dmdoyle1313",
+          "total_points": -5,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "This is honestly great haha but can\u2019t get myself to votePaul?"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Dave \ud83e\udd3c or Kevin pride \ud83c\udff3\ufe0f\u200d\ud83c\udf08 month isn\u2019t until June, I might have saved this one for that future  category - I wish you went with the Scarface song from GTA3"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "Classic song that fits category in hilarious way. However, 10/10 would not listen to in gym."
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "title": "Foxtrot Uniform Charlie Kilo",
+          "artist": "Bloodhound Gang",
+          "album": "Hefty Fine",
+          "submitter": "Kevin O'Connell",
+          "total_points": -5,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 0,
+              "comment": "Chris"
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Jordan or AnkDon\u2019t know I would even be able to bench the bar if I was expecting to be pumped up by this song lol"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": "Did not expect this on here! Saving it for another playlist for sure.Doyle?"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }
