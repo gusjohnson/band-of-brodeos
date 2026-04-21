@@ -73,10 +73,13 @@ body.dark nav a { color: #a8a69f; }
 body.dark nav a:hover { background: #2a2a27; }
 body.dark nav a.active { background: #e8e6e0; color: #1a1a18; }
 
-/* Theme toggle */
+/* Theme toggle — fixed in viewport top-right */
 .theme-toggle {
-  margin-left: auto;
-  background: transparent;
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  z-index: 10;
+  background: #faf8f3;
   border: 1px solid #e2ded5;
   color: #5f5e5a;
   padding: 6px 12px;
@@ -84,7 +87,13 @@ body.dark nav a.active { background: #e8e6e0; color: #1a1a18; }
   cursor: pointer;
   font-size: 13px;
 }
-body.dark .theme-toggle { border-color: #33322e; color: #a8a69f; }
+.theme-toggle:hover { background: #efece4; }
+body.dark .theme-toggle {
+  background: #1a1a18;
+  border-color: #33322e;
+  color: #a8a69f;
+}
+body.dark .theme-toggle:hover { background: #2a2a27; }
 
 /* Tabs */
 .tabs {

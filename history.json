@@ -1934,6 +1934,615 @@
           ]
         }
       ]
+    },
+    {
+      "round_number": 4,
+      "theme": "Movie Soundtrack",
+      "description": "Songs made famous by an appearance in a movie",
+      "songs": [
+        {
+          "rank": 1,
+          "title": "Lose Yourself - From \"8 Mile\" Soundtrack",
+          "artist": "Eminem",
+          "album": "Curtain Call: The Hits",
+          "submitter": "Michael Neidhardt",
+          "total_points": 13,
+          "voter_count": 10,
+          "votes": [
+            {
+              "voter": "Christian Carmody",
+              "vote": 3,
+              "comment": "Internationally recognized . Oscar and Grammy winner. Cmon"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 3,
+              "comment": "Thought about picking this but figured someone had to have it"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "DJ, spin that ishh"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Andrew - Would normally love this play from the awesome movie but it was so overplayed in the 00\u2019s"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "title": "Scotty Doesn't Know",
+          "artist": "Lustra",
+          "album": "Left for Dead",
+          "submitter": "Christian Carmody",
+          "total_points": 12,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Paul Harnish",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 2,
+              "comment": "GOAT"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": "Scott ;)"
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Gus obvi - 6th grade cooperstown when boys were made into men"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": "Pretty sure Matt Damon is just lip syncing in the movie"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 0,
+              "comment": "Gus?"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 0,
+              "comment": "Emotional Trauma- like it but if I had a dollar for every time I heard Scotty doesn\u2019t know"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "title": "I'm Shipping Up To Boston",
+          "artist": "Dropkick Murphys",
+          "album": "The Warrior's Code",
+          "submitter": "Gus Johnson",
+          "total_points": 10,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 3,
+              "comment": "All around great flick and soundtrack - Alex or Christian"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 2,
+              "comment": "You hear this song in the beginning and immediately get fired up to watch the film"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": "Guitar Hero pick of the week"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "title": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
+          "artist": "Aerosmith",
+          "album": "Armageddon - The Album",
+          "submitter": "Nick DePinho",
+          "total_points": 6,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": "Nick"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "Another GOAT"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "This has Dave potential, but I don\u2019t take him for an Armageddon guy. So maybe Paul or Jordan?"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Embarrassed to say I\u2019ve never seem this movie"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": "Just not a huge Aerosmith guy"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "title": "The Power Of Love",
+          "artist": "Huey Lewis & The News",
+          "album": "Greatest Hits: Huey Lewis And The News",
+          "submitter": "crob663",
+          "total_points": 6,
+          "voter_count": 4,
+          "votes": [
+            {
+              "voter": "DJ Scarp",
+              "vote": 3,
+              "comment": "Goatd song"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "ELITE pick"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "I know the song, not the movie"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "title": "The Shire",
+          "artist": "Howard Shore",
+          "album": "The Lord of the Rings: The Fellowship of the Ring - the Complete Recordings",
+          "submitter": "Kevin O'Connell",
+          "total_points": 5,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 2,
+              "comment": "Legendary soundtrack. Hard choice between this and the Imperial March"
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Kevo or Mike - Would give this more upvotes, but I am more partial to the songs I\u2019d hear on the radio and be reminded of the movies."
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": "That scene at the end of ROTK when Sam gets married.. so good"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Because I doubt it got respect"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "title": "The Imperial March (Darth Vader's Theme)",
+          "artist": "John Williams",
+          "album": "Star Wars: The Empire Strikes Back (Original Motion Picture Soundtrack)",
+          "submitter": "Paul Harnish",
+          "total_points": 5,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 3,
+              "comment": "Can\u2019t deny the greatness of this pick.Dave?"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": "Good pick just too easyTo vote more"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "Best theme there is"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "I wish the Star Wars intro theme was selected :( but also I\u2019m more partial to songs I might hear on the radio this round"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Great Theme, Paul?"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "title": "Nightcall",
+          "artist": "Kavinsky",
+          "album": "Nightcall",
+          "submitter": "DJ Scarp",
+          "total_points": 5,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": "Drive!!!"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Haven\u2019t seen the movie\u2026 yet"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "title": "Where Is My Mind?",
+          "artist": "Pixies",
+          "album": "Death to the Pixies",
+          "submitter": "Alex Ankier",
+          "total_points": 4,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Gus Johnson",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 2,
+              "comment": "Paul or Kevin? Although I do know this to be on Andrew\u2019s must see movie list"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Fight Club or Trainspotting"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Classic"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": "Low key hate this song"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": "I had to give a downvote, didn\u2019t deserve it"
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "title": "I Was Made For Lovin\u2019 You - from The Fall Guy",
+          "artist": "YUNGBLUD",
+          "album": "I Was Made For Lovin' You (from The Fall Guy)",
+          "submitter": "Jordan Katz",
+          "total_points": 2,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": "Never saw the movie but nice cover"
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Nick?? Or Scott"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Never saw this but song is sick"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "title": "Murder On The Dancefloor",
+          "artist": "Sophie Ellis-Bextor",
+          "album": "Read My Lips (Deluxe Version)",
+          "submitter": "dmdoyle1313",
+          "total_points": 2,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Alex Ankier",
+              "vote": 2,
+              "comment": "Whoever did this is mean. I didn\u2019t want to ever think of that scene again lol"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "One of the best scenes from this movie"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Jordan - love hearing this song on the radio, but can\u2019t say I\u2019ve  seen the movie"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 0,
+              "comment": "I ran out of thumbs up but hell yes"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -2,
+              "comment": "Never heard it before, never wanna hear it again"
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "title": "Always Remember Us This Way",
+          "artist": "Lady Gaga",
+          "album": "A Star Is Born Soundtrack (Without Dialogue)",
+          "submitter": "Andrew Caccioppoli",
+          "total_points": 2,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Nick DePinho",
+              "vote": 3,
+              "comment": "Great call3 points for gryfindor"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "I\u2019m sorry I\u2019m probably alone on this, but not the biggest Lady Gaga fan"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }
