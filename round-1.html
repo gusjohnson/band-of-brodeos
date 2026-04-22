@@ -28,7 +28,7 @@
       <button class="tab active" data-tab="leaderboard">Leaderboard</button>
       <button class="tab" data-tab="songs">Songs</button>
       <button class="tab" data-tab="heatmap">Vote heatmap</button>
-      <button class="tab" data-tab="voters">Voter behavior</button>
+      <button class="tab" data-tab="voters">Taste alignment</button>
       <button class="tab" data-tab="fun">Fun facts</button>
     </div>
 
@@ -58,9 +58,16 @@
     </div>
 
     <div class="panel" data-panel="voters">
-      <p class="chart-note">Everyone starts with 8 upvote points to give. This shows how liberally each player reached for the downvote button on top.</p>
-      <div class="chart-wrap">
-        <canvas id="voterChart" role="img" aria-label="Upvote and downvote points given per player">Voter behavior chart.</canvas>
+      <p class="chart-note">How closely each pair voted alike this round (cosine similarity on shared songs). Greens = aligned taste, reds = opposed. Hover a cell for the exact score.</p>
+      <div class="heatmap-wrap" id="agreementWrap"></div>
+      <div class="legend">
+        <span><span class="legend-swatch" style="background:#a32d2d;"></span>opposed</span>
+        <span><span class="legend-swatch" style="background:#e24b4a;"></span>−</span>
+        <span><span class="legend-swatch" style="background:#f09595;"></span>slight −</span>
+        <span><span class="legend-swatch" style="background:rgba(127,127,127,0.12);"></span>neutral</span>
+        <span><span class="legend-swatch" style="background:#97c459;"></span>slight +</span>
+        <span><span class="legend-swatch" style="background:#639922;"></span>+</span>
+        <span><span class="legend-swatch" style="background:#3b6d11;"></span>aligned</span>
       </div>
     </div>
 

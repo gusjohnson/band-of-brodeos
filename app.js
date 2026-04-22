@@ -128,18 +128,52 @@ async function renderRoundPage(roundNumber) {
   });
 
   const sortedPlayers = Array.from(players).sort();
-  const ctx = {round, lb, voterStats, matrix, players: sortedPlayers};
+  const agreement = computeAgreement(round, sortedPlayers);
+  const ctx = {round, lb, voterStats, matrix, agreement, players: sortedPlayers};
 
   renderLeaderboard(ctx);
   renderSongList(ctx);
   renderHeatmap(ctx);
-  renderVoterChart(ctx);
+  renderAgreementGrid(ctx);
   renderFunFacts(ctx);
 
   window.__rerenderCharts = () => {
     renderLeaderboard(ctx);
-    renderVoterChart(ctx);
+    renderAgreementGrid(ctx);
   };
+}
+
+function computeAgreement(round, players) {
+  // For each song, snapshot per-voter vote (0 = didn't vote or submitter)
+  const songVotes = round.songs.map(s => {
+    const m = {};
+    players.forEach(p => { m[p] = 0; });
+    s.votes.forEach(v => { m[v.voter] = v.vote; });
+    return {submitter: s.submitter, votes: m};
+  });
+
+  // Cosine similarity per pair, restricted to songs neither player submitted.
+  // Cosine (vs. Pearson) treats "no vote" as a true zero: a song both
+  // players skipped contributes nothing instead of dragging toward the mean.
+  const agreement = {};
+  players.forEach(a => {
+    agreement[a] = {};
+    players.forEach(b => {
+      if (a === b) { agreement[a][b] = null; return; }
+      let dot = 0, aMag = 0, bMag = 0, shared = 0;
+      songVotes.forEach(sv => {
+        if (sv.submitter === a || sv.submitter === b) return;
+        const va = sv.votes[a], vb = sv.votes[b];
+        dot += va * vb;
+        aMag += va * va;
+        bMag += vb * vb;
+        if (va !== 0 && vb !== 0) shared++;
+      });
+      const sim = (aMag > 0 && bMag > 0) ? dot / Math.sqrt(aMag * bMag) : null;
+      agreement[a][b] = sim === null ? null : {sim, shared};
+    });
+  });
+  return agreement;
 }
 
 function renderLeaderboard({lb}) {
@@ -266,33 +300,69 @@ function renderHeatmap({players, matrix}) {
   wrap.appendChild(grid);
 }
 
-function renderVoterChart({voterStats}) {
-  const canvas = document.getElementById('voterChart');
-  if (!canvas) return;
-  if (canvas._chart) canvas._chart.destroy();
-  const colors = chartColors();
-  const names = Object.keys(voterStats).sort((a,b) => voterStats[b].downvote_points - voterStats[a].downvote_points);
-  canvas._chart = new Chart(canvas, {
-    type: 'bar',
-    data: {
-      labels: names,
-      datasets: [
-        {label: 'Upvote points given', data: names.map(n => voterStats[n].upvote_points), backgroundColor: '#639922', borderWidth: 0},
-        {label: 'Downvote points given', data: names.map(n => -voterStats[n].downvote_points), backgroundColor: '#e24b4a', borderWidth: 0}
-      ]
-    },
-    options: {
-      responsive: true, maintainAspectRatio: false, indexAxis: 'y',
-      plugins: {
-        legend: {labels: {color: colors.text, font: {size: 13}}},
-        tooltip: {callbacks: {label: ctx => `${Math.abs(ctx.parsed.x)} points`}}
-      },
-      scales: {
-        x: {ticks: {color: colors.text, font: {size: 12}, callback: v => Math.abs(v)}, grid: {color: colors.grid}},
-        y: {ticks: {color: colors.text, font: {size: 13}}, grid: {display: false}}
-      }
-    }
+function agreementColor(v) {
+  if (v >= 0.6) return '#3b6d11';
+  if (v >= 0.3) return '#639922';
+  if (v >= 0.1) return '#97c459';
+  if (v > -0.1) return 'rgba(127,127,127,0.12)';
+  if (v > -0.3) return '#f09595';
+  if (v > -0.6) return '#e24b4a';
+  return '#a32d2d';
+}
+
+function renderAgreementGrid({players, agreement}) {
+  const wrap = document.getElementById('agreementWrap');
+  if (!wrap) return;
+  wrap.innerHTML = '';
+  const grid = document.createElement('div');
+  grid.className = 'heatmap';
+  grid.style.gridTemplateColumns = `minmax(140px, auto) repeat(${players.length}, minmax(46px, 1fr))`;
+
+  const corner = document.createElement('div');
+  corner.className = 'hm-label-col';
+  grid.appendChild(corner);
+
+  players.forEach(p => {
+    const d = document.createElement('div');
+    d.className = 'hm-label-row';
+    d.textContent = p;
+    d.style.height = '100px';
+    grid.appendChild(d);
   });
+
+  const isDark = document.body.classList.contains('dark');
+  players.forEach(a => {
+    const lbl = document.createElement('div');
+    lbl.className = 'hm-label-col';
+    lbl.textContent = a;
+    grid.appendChild(lbl);
+
+    players.forEach(b => {
+      const d = document.createElement('div');
+      d.className = 'hm-cell';
+      const entry = agreement[a] && agreement[a][b];
+
+      if (a === b) {
+        d.style.background = 'rgba(127,127,127,0.08)';
+        d.style.color = isDark ? '#6a6a66' : '#b4b2a9';
+        d.textContent = '–';
+      } else if (!entry) {
+        d.style.background = 'rgba(127,127,127,0.05)';
+        d.textContent = '';
+        d.title = `${a} and ${b} have no shared votes`;
+      } else {
+        const {sim, shared} = entry;
+        d.style.background = agreementColor(sim);
+        d.style.color = Math.abs(sim) >= 0.3 ? '#ffffff' : (isDark ? '#e8e6e0' : '#2c2c2a');
+        const short = sim >= 0 ? '+' + sim.toFixed(1).replace(/^0/, '') : '−' + Math.abs(sim).toFixed(1).replace(/^0/, '');
+        d.textContent = short;
+        d.title = `${a} ↔ ${b}: ${sim.toFixed(2)} (${shared} shared non-zero votes)`;
+      }
+      grid.appendChild(d);
+    });
+  });
+
+  wrap.appendChild(grid);
 }
 
 function renderFunFacts({round, voterStats, lb}) {
