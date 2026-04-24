@@ -3,10 +3,15 @@
 Parse a Music League round HTM export and append it to history.json.
 
 Usage:
-    python3 scripts/parse_round.py <round_number> <theme> [description]
+    python3 scripts/parse_round.py <round_number> [theme] [description]
+
+    Theme and description are normally read from the HTM file itself (the
+    <title> tag and the data-description attribute). Pass them as CLI args
+    only if you want to override the parsed values.
 
 Example:
-    python3 scripts/parse_round.py 2 "Guilty Pleasures" "Songs you love but are embarrassed to admit"
+    python3 scripts/parse_round.py 5
+    python3 scripts/parse_round.py 5 "Custom Theme" "Custom description"
 
 Expects:
     - rounds-raw/round-<N>.htm to exist
@@ -36,12 +41,22 @@ except ImportError:
 REPO_ROOT = Path(__file__).resolve().parent.parent
 HISTORY_PATH = REPO_ROOT / "history.json"
 RAW_DIR = REPO_ROOT / "rounds-raw"
+PAGE_TEMPLATE = REPO_ROOT / "round-1.html"
 
 
-def parse_round(htm_path: Path) -> tuple[list[dict], str | None]:
-    """Parse a Music League round HTM file into (songs, description)."""
+def parse_round(htm_path: Path) -> tuple[list[dict], str | None, str | None]:
+    """Parse a Music League round HTM file into (songs, theme, description)."""
     with open(htm_path, "r", encoding="utf-8") as f:
         soup = BeautifulSoup(f, "html.parser")
+
+    # Theme is the last `|`-separated segment of the <title> tag.
+    # e.g. "Music League | The Band of Brodeos | Movie Soundtrack" → "Movie Soundtrack"
+    title_elem = soup.find("title")
+    theme = None
+    if title_elem:
+        parts = [p.strip() for p in title_elem.get_text().split("|")]
+        if len(parts) >= 2:
+            theme = parts[-1]
 
     # Strip scripts and styles so they don't pollute text extraction
     for tag in soup(["script", "style"]):
@@ -65,7 +80,7 @@ def parse_round(htm_path: Path) -> tuple[list[dict], str | None]:
         if song:
             songs.append(song)
 
-    return songs, description
+    return songs, theme, description
 
 
 def parse_song_container(sc) -> dict | None:
@@ -168,6 +183,58 @@ def validate_songs(songs: list[dict]) -> list[str]:
     return errors
 
 
+def generate_round_page(round_number: int) -> Path:
+    """Create round-<N>.html from the round-1 template."""
+    out_path = REPO_ROOT / f"round-{round_number}.html"
+    if out_path.exists():
+        raise FileExistsError(f"{out_path.name} already exists — refusing to overwrite.")
+
+    html = PAGE_TEMPLATE.read_text(encoding="utf-8")
+
+    # <title>Round 1 — ...</title>  →  <title>Round N — ...</title>
+    html = re.sub(r"<title>Round \d+", f"<title>Round {round_number}", html, count=1)
+
+    # Drop any existing class="active" on round nav links so only the new one is active.
+    html = re.sub(r'(<a href="round-\d+\.html")\s+class="active"', r"\1", html)
+
+    # Mark the new round's link active (it was already inserted by update_nav_links).
+    html = re.sub(
+        rf'<a href="round-{round_number}\.html">Round {round_number}</a>',
+        f'<a href="round-{round_number}.html" class="active">Round {round_number}</a>',
+        html,
+        count=1,
+    )
+
+    # renderRoundPage(1) → renderRoundPage(N)
+    html = re.sub(r"renderRoundPage\(\d+\)", f"renderRoundPage({round_number})", html, count=1)
+
+    out_path.write_text(html, encoding="utf-8")
+    return out_path
+
+
+def update_nav_links(round_number: int) -> list[Path]:
+    """Add a Round <N> link to the nav in every existing round-*.html and index.html."""
+    new_link = f'    <a href="round-{round_number}.html">Round {round_number}</a>'
+    nav_files = sorted(REPO_ROOT.glob("round-*.html")) + [REPO_ROOT / "index.html"]
+    touched = []
+    for path in nav_files:
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        if f'href="round-{round_number}.html"' in text:
+            continue  # link already present
+        # Insert after the last existing round-*.html nav link
+        pattern = re.compile(r'([ \t]*<a href="round-\d+\.html"[^>]*>Round \d+</a>\n)')
+        matches = list(pattern.finditer(text))
+        if not matches:
+            continue
+        last = matches[-1]
+        updated = text[: last.end()] + new_link + "\n" + text[last.end():]
+        path.write_text(updated, encoding="utf-8")
+        touched.append(path)
+    return touched
+
+
 def load_history() -> dict:
     if HISTORY_PATH.exists():
         with open(HISTORY_PATH, "r") as f:
@@ -181,7 +248,7 @@ def save_history(history: dict) -> None:
 
 
 def main():
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         print(__doc__, file=sys.stderr)
         sys.exit(1)
 
@@ -191,7 +258,7 @@ def main():
         print(f"ERROR: round_number must be an integer, got '{sys.argv[1]}'", file=sys.stderr)
         sys.exit(1)
 
-    theme = sys.argv[2]
+    theme_arg = sys.argv[2] if len(sys.argv) > 2 else None
     description_arg = sys.argv[3] if len(sys.argv) > 3 else None
 
     htm_path = RAW_DIR / f"round-{round_number}.htm"
@@ -210,8 +277,17 @@ def main():
         sys.exit(1)
 
     print(f"Parsing {htm_path}...")
-    songs, parsed_desc = parse_round(htm_path)
+    songs, parsed_theme, parsed_desc = parse_round(htm_path)
     print(f"  Found {len(songs)} songs.")
+
+    theme = theme_arg if theme_arg is not None else parsed_theme
+    if not theme:
+        print(
+            "ERROR: Could not extract theme from HTM <title> tag. "
+            "Pass it explicitly: python3 scripts/parse_round.py <N> \"<theme>\"",
+            file=sys.stderr,
+        )
+        sys.exit(1)
     description = description_arg if description_arg is not None else (parsed_desc or "")
 
     errors = validate_songs(songs)
@@ -238,6 +314,11 @@ def main():
     print(f"\n✓ Round {round_number} '{theme}' added to history.json.")
     print(f"  Winner: {songs[0]['submitter']} — \"{songs[0]['title']}\" ({songs[0]['total_points']} pts)")
     print(f"  Total votes: {sum(s['voter_count'] or 0 for s in songs)}")
+
+    touched = update_nav_links(round_number)
+    print(f"\n✓ Added Round {round_number} nav link to {len(touched)} file(s).")
+    page_path = generate_round_page(round_number)
+    print(f"✓ Created {page_path.name}.")
 
 
 if __name__ == "__main__":

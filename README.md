@@ -28,16 +28,29 @@ That's it. Share the URL with the league.
 
 ## Adding a new round
 
+One-time setup: `pip install beautifulsoup4`.
+
 After the next round finishes on Music League:
 
-1. Export the round's HTM file from Music League (same way you got Round 1).
-2. Start a fresh chat with Claude, upload:
-   - The new round's HTM file
-   - The current `history.json`
-3. Ask Claude to add the round to the history and generate the new round page.
-4. You'll get back: an updated `history.json` and a new `round-N.html` file.
-5. Commit both to your repo (drop them in, push, or edit directly on github.com).
-6. Also update `round-1.html` (and any previous rounds') nav bar to include the new round — or ask Claude to do it for you.
+Throughout these steps, `<N>` is the new round number (e.g. `5` if you're adding the 5th round).
+
+1. **Download the round page.** Save As from the round's page in Music League. It lands as `Music League _ The Band of Brodeos _ <round name>.htm`. Drop it into `rounds-raw/`.
+2. **Give it the name the script expects.** Copy (or rename) it to `rounds-raw/round-<N>.htm` — for round 5, that's `rounds-raw/round-5.htm`.
+3. **Run the parser.** From the repo root:
+   ```
+   python3 scripts/parse_round.py <N>
+   ```
+   For example, for round 5: `python3 scripts/parse_round.py 5`.
+
+   The theme and description are read from the HTM file (the `<title>` tag and the round's `data-description`). You can override them if you want: `python3 scripts/parse_round.py 5 "Custom Theme" "Custom description"`.
+
+   This does everything:
+   - parses the HTM and appends the round to `history.json` (validating that each song's individual votes sum to its reported total — exits with an error and writes nothing if off)
+   - generates `round-<N>.html` from the `round-1.html` template
+   - adds a `Round <N>` nav link to every existing `round-*.html` and to `index.html`
+4. **Preview locally** (see below), eyeball the new round, then commit and push.
+
+Don't edit `app.js`, `styles.css`, or existing entries in `history.json` — just append.
 
 ## Local preview
 
