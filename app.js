@@ -387,36 +387,103 @@ function computeFunFacts(round, voterStats, lb) {
   const facts = [];
   const winner = lb[0], runnerUp = lb[1];
 
+  const margin = winner.total_points - runnerUp.total_points;
   facts.push({
     label: 'Winning margin',
-    headline: `${winner.total_points - runnerUp.total_points} points`,
+    headline: `${margin} ${margin === 1 ? 'point' : 'points'}`,
     detail: `${winner.submitter}'s "${winner.title}" edged out ${runnerUp.submitter}'s "${runnerUp.title}".`
   });
 
-  let mostDivisive = null, divScore = -1;
-  round.songs.forEach(s => {
-    const pos = s.votes.filter(v => v.vote > 0).reduce((a,b) => a + b.vote, 0);
-    const neg = s.votes.filter(v => v.vote < 0).reduce((a,b) => a + b.vote, 0);
-    const score = pos - neg;
-    if (score > divScore) { divScore = score; mostDivisive = {s, pos, neg}; }
-  });
-  facts.push({
-    label: 'Most divisive',
-    headline: `${mostDivisive.s.submitter}'s "${mostDivisive.s.title}"`,
-    detail: `+${mostDivisive.pos} in upvotes and ${mostDivisive.neg} in downvotes. Opinions were strong in both directions.`
-  });
-
-  // Kingmaker: most 3-point votes
-  const threeVotes = {};
-  round.songs.forEach(s => s.votes.forEach(v => {
-    if (v.vote === 3) threeVotes[v.voter] = (threeVotes[v.voter] || 0) + 1;
-  }));
-  const kingmakers = Object.entries(threeVotes);
-  if (kingmakers.length) {
+  // Polarizer: song that received both a 3-point vote AND a downvote
+  const polarizers = round.songs
+    .map(s => {
+      const pos = s.votes.filter(v => v.vote > 0).reduce((a,b) => a + b.vote, 0);
+      const neg = s.votes.filter(v => v.vote < 0).reduce((a,b) => a + b.vote, 0);
+      const has3 = s.votes.some(v => v.vote === 3);
+      const hasNeg = s.votes.some(v => v.vote < 0);
+      return {s, pos, neg, has3, hasNeg};
+    })
+    .filter(p => p.has3 && p.hasNeg)
+    .sort((a,b) => (b.pos - b.neg) - (a.pos - a.neg));
+  if (polarizers.length) {
+    const p = polarizers[0];
     facts.push({
-      label: 'Kingmakers',
-      headline: kingmakers.map(k => k[0]).join(', '),
-      detail: 'Players who handed out a max 3-point vote this round. High conviction voters.'
+      label: 'Polarizer',
+      headline: `${p.s.submitter}'s "${p.s.title}"`,
+      detail: `Pulled a 3-point vote AND a downvote — +${p.pos} from fans, ${p.neg} from detractors.`
+    });
+  }
+
+  // Picked the winner: voters who gave a 3 to the winning song
+  const winnerThreeVoters = winner.votes.filter(v => v.vote === 3).map(v => v.voter);
+  if (winnerThreeVoters.length) {
+    facts.push({
+      label: 'Picked the winner',
+      headline: winnerThreeVoters.join(' · '),
+      detail: `Threw their 3 at ${winner.submitter}'s "${winner.title}".`
+    });
+  }
+
+  // Backfired: voter whose 3-point pick finished in the bottom half
+  const halfRank = Math.ceil(lb.length / 2);
+  const backfires = [];
+  round.songs.forEach(s => {
+    if (s.rank > halfRank) {
+      s.votes.forEach(v => {
+        if (v.vote === 3) {
+          backfires.push({voter: v.voter, title: s.title, rank: s.rank});
+        }
+      });
+    }
+  });
+  backfires.sort((a,b) => b.rank - a.rank);
+  if (backfires.length) {
+    const w = backfires[0];
+    facts.push({
+      label: 'Backfired',
+      headline: `${w.voter}'s 3 → "${w.title}"`,
+      detail: `Finished #${w.rank} of ${lb.length} — high conviction, low return.`
+    });
+  }
+
+  // Crowd pleaser: non-winner with the most distinct positive voters
+  let crowdPleaserSong = null;
+  const nonWinnerByReach = round.songs
+    .filter(s => s !== winner)
+    .map(s => ({s, n: s.votes.filter(v => v.vote > 0).length}))
+    .sort((a,b) => b.n - a.n);
+  if (nonWinnerByReach.length && nonWinnerByReach[0].n >= 4) {
+    const cp = nonWinnerByReach[0];
+    crowdPleaserSong = cp.s;
+    facts.push({
+      label: 'Crowd pleaser',
+      headline: `${cp.s.submitter}'s "${cp.s.title}"`,
+      detail: `${cp.n} voters gave it a positive vote — broad support that didn't quite top the chart.`
+    });
+  }
+
+  // Unanimous love: every non-zero vote was positive. Prefer the winner (special: "won with no haters").
+  const unanimous = round.songs
+    .map(s => {
+      const nonZero = s.votes.filter(v => v.vote !== 0);
+      const pos = nonZero.filter(v => v.vote > 0);
+      return {s, nonZero: nonZero.length, pos: pos.length};
+    })
+    .filter(u => u.nonZero >= 4 && u.pos === u.nonZero && u.s !== crowdPleaserSong);
+  unanimous.sort((a,b) => {
+    if (a.s === winner) return -1;
+    if (b.s === winner) return 1;
+    return b.pos - a.pos;
+  });
+  if (unanimous.length) {
+    const u = unanimous[0];
+    const isWin = u.s === winner;
+    facts.push({
+      label: 'Unanimous love',
+      headline: `${u.s.submitter}'s "${u.s.title}"`,
+      detail: isWin
+        ? `Took the round with zero downvotes — ${u.pos} positive votes and not a single hater.`
+        : `${u.pos} positive votes, zero downvotes — nobody had a bad word.`
     });
   }
 
@@ -430,33 +497,30 @@ function computeFunFacts(round, voterStats, lb) {
     });
   }
 
-  // Downvote enthusiast
+  // Wrote a novel: longest single comment
+  let longestComment = null;
+  round.songs.forEach(s => s.votes.forEach(v => {
+    if (v.comment && (!longestComment || v.comment.length > longestComment.comment.length)) {
+      longestComment = {voter: v.voter, comment: v.comment, title: s.title};
+    }
+  }));
+  if (longestComment && longestComment.comment.length >= 60) {
+    facts.push({
+      label: 'Wrote a novel',
+      headline: `${longestComment.voter} on "${longestComment.title}"`,
+      detail: `"${longestComment.comment}"`
+    });
+  }
+
+  // Downvote enthusiast — only when there's a clear leader (skip when everyone tied at the locked −2)
   const downRanked = Object.entries(voterStats).map(([n,s]) => [n, s.downvote_points]).sort((a,b) => b[1] - a[1]);
-  if (downRanked[0][1] > 0) {
+  if (downRanked.length >= 2 && downRanked[0][1] > 0 && downRanked[0][1] > downRanked[1][1]) {
     facts.push({
       label: 'Downvote enthusiast',
       headline: `${downRanked[0][0]} — ${downRanked[0][1]} downvote points`,
       detail: `Cast ${voterStats[downRanked[0][0]].negative_votes} negative votes this round.`
     });
   }
-
-  // No hate in their heart
-  const clean = Object.entries(voterStats).filter(([n,s]) => s.downvote_points === 0).map(([n]) => n);
-  if (clean.length) {
-    facts.push({
-      label: 'No hate in their heart',
-      headline: clean.join(' · '),
-      detail: 'Cast zero downvotes all round. Pure positivity.'
-    });
-  }
-
-  // Widest net
-  const reach = Object.entries(voterStats).map(([n,s]) => [n, s.songs_voted]).sort((a,b) => b[1] - a[1]);
-  facts.push({
-    label: 'Widest net',
-    headline: `${reach[0][0]} voted on ${reach[0][1]} songs`,
-    detail: `Out of a maximum ${round.songs.length - 1} (you can't vote on your own submission).`
-  });
 
   // Rivalry
   const rivalry = {};
