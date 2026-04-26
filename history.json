@@ -2543,6 +2543,731 @@
           ]
         }
       ]
+    },
+    {
+      "round_number": 5,
+      "theme": "Duets",
+      "description": "Songs in which two well-known musicians collaborate",
+      "songs": [
+        {
+          "rank": 1,
+          "title": "Ain't No Mountain High Enough",
+          "artist": "Marvin Gaye",
+          "album": "United",
+          "submitter": "Alex Ankier",
+          "total_points": 13,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 3,
+              "comment": "My second pick. Great choice"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 3,
+              "comment": "Runaway top selection"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 2,
+              "comment": "First song that pops up for famous duets. Lacks originality but the song slays so here are my upvotes"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "My Z100 song nomination.. it\u2019s played at literally every wedding I\u2019ve ever been to. Overrated song in my opinion"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Overplayed, would skip."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "title": "One",
+          "artist": "Mary J. Blige",
+          "album": "The Breakthrough",
+          "submitter": "dmdoyle1313",
+          "total_points": 13,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 3,
+              "comment": "Very unique duet bc of the two artists coming from completely different genres and a great song overall."
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 3,
+              "comment": "Mary fuckin J"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 2,
+              "comment": "Like this one"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": "I initially had this one submitted, then switched off because i like the original better. Still good enough for upvotes, curious how it does."
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "Wish I had more up votes"
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Don\u2019t necessarily dislike the duet, but I had the song by U2 on its own so it influenced my decision."
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "title": "Younger You (featuring Lainey Wilson) - From the \"Hannah Montana 20th Anniversary Special\"",
+          "artist": "Miley Cyrus",
+          "album": "Younger You (featuring Lainey Wilson) [From the \"Hannah Montana 20th Anniversary Special\"]",
+          "submitter": "Jordan Katz",
+          "total_points": 12,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Paul Harnish",
+              "vote": 3,
+              "comment": "+3 for Miley"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": "Not bad, not bad at all"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": "Not usually a Miley fan, but this one passed the test"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Did not know they had a collab! 1 pt."
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Not a terrible Miley song. Actually like it not having heard it before, but didn\u2019t have anymore upvotes to giveAlso lib of the week nomination"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "\ud83d\ude34\ud83d\udca4"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "title": "Right Back to It",
+          "artist": "Waxahatchee",
+          "album": "Tigers Blood",
+          "submitter": "Gus Johnson",
+          "total_points": 12,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Dan Ornstein",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 3,
+              "comment": "What an entry, i fucked with MJ Lenderman's Boat Songs album a couple years back, \"hangover game\" and \"tastes just like it costs\". Need to listen to his latest!! Didn't expect a tasteful pick! 3 points for Gryffindor."
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "Beau\u2019s vote. Not bad"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 0,
+              "comment": "Interesting..."
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "This definitely meets the spirit of duet, but didn\u2019t have enough upvotes. Great submission"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 0,
+              "comment": "Hadn\u2019t heard this, nice pick!"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": "Under 1mil monthly listeners for MJ Lenderman = not well known"
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "title": "Under Pressure - Remastered 2011",
+          "artist": "Queen",
+          "album": "Hot Space (Deluxe Remastered Version)",
+          "submitter": "DJ Scarp",
+          "total_points": 11,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 2,
+              "comment": "Scotty B! I like!"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 2,
+              "comment": "Classic, can\u2019t really question this as a goated pick"
+            },
+            {
+              "voter": "crob663",
+              "vote": 2,
+              "comment": "This was a tough decision between this and TotD - Dave?"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 2,
+              "comment": "Always slaps"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 2,
+              "comment": "Great pick"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": "Never knew Bowie was in this one"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Great song, just worn out and obvi choice."
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": "Not a true duet since queen is a band- great song though"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "title": "Mockingbird",
+          "artist": "Carly Simon",
+          "album": "Hotcakes",
+          "submitter": "Christian Carmody",
+          "total_points": 7,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Gus Johnson",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": "Dumb and dumber brought me here"
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Paul"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Deep cut but still fresh, yes."
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "title": "Don't Let Me Down",
+          "artist": "Milky Chance",
+          "album": "Don\u2019t Let Me Down",
+          "submitter": "Kevin O'Connell",
+          "total_points": 5,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "This song is such a vibe! Jordan or Ank?"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "Vibes"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "Great pick!"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 0,
+              "comment": "Cool song but not a duet"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "title": "Breaking Free",
+          "artist": "Troy",
+          "album": "High School Musical",
+          "submitter": "Nick DePinho",
+          "total_points": 4,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "DJ Scarp",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": "Had to use an update here cuz all the others were terrible. Stuck to the category at least"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "If I didn\u2019t vote for this I would\u2019ve been divorced before I was married \ud83d\ude02"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "I\u2019m partial to songs you might hear on the radio, but this was a good choice. Scott or Jordan?"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Shoot ya shot Troy"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "cheat code"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "title": "Hunger Strike",
+          "artist": "Temple Of The Dog",
+          "album": "Temple Of The Dog",
+          "submitter": "Michael Neidhardt",
+          "total_points": 3,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 3,
+              "comment": "RIP to Legend Chris Cornell! Gotta be Kevin"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Knew this would be taken. Had this song on repeat back in the day. So a tad bit worn out for me."
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 0,
+              "comment": "Kevin yikes. Not what comes to mind when I think of a duet. Just a couple dudes yelling"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Ii"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "title": "Love The Way You Lie",
+          "artist": "Eminem",
+          "album": "Recovery",
+          "submitter": "Andrew Caccioppoli",
+          "total_points": 1,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Scott or Dan?"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 0,
+              "comment": "Wish I had more down votes. Next time mikey"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 0,
+              "comment": "It wasn\u2019t me guys\u2026"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Coming to you from New York\u2019s #1  Hit Music Station!"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 0,
+              "comment": "A classic, but more of a collab than a duet"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Obvi choice, but still good. No downvote."
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": "Collab"
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "title": "No Air (feat. Chris Brown)",
+          "artist": "Jordin Sparks",
+          "album": "Jordin Sparks",
+          "submitter": "crob663",
+          "total_points": 1,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Nick DePinho",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": "Feel like I remember Andy singing this wayy back in the day and for that, it gets a vote."
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 0,
+              "comment": "Great throwback"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Z-100 \"Guitar Hero\" song of the week."
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": "Brutal"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": "\ud83e\udd22"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": "-1 for abuser"
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "title": "Miles On It",
+          "artist": "Marshmello",
+          "album": "Miles On It",
+          "submitter": "Dan Ornstein",
+          "total_points": -1,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Alex Ankier",
+              "vote": 3,
+              "comment": "Awesome summer jam- definitely Jordan"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 0,
+              "comment": "Wrong category bud"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 0,
+              "comment": "Would\u2019ve voted for it but I don\u2019t think the harmony aspect hits"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": "A bit too repetitive for me"
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Shoot is this Jordan? Not a fan of the stand along Kane brown song (sorry). Also I didn\u2019t know Marshmello even sang ??"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "I don't think I heard another voice..."
+            }
+          ]
+        },
+        {
+          "rank": 13,
+          "title": "Keep Floatin' (feat. Wiz Khalifa)",
+          "artist": "Mac Miller",
+          "album": "Best Day Ever",
+          "submitter": "Paul Harnish",
+          "total_points": -3,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 0,
+              "comment": "Surprisingly didn\u2019t hate it and liked the beat/flow of the song"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Meh - Gus or Christian?RIP Mac tho"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Love both these guys but as they aged."
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": "The hell is this? Maybe this is scott too...."
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -2,
+              "comment": "Had to downvote something, I\u2019m so sorry cause it\u2019s a great song"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
