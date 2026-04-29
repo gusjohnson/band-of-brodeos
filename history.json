@@ -3268,6 +3268,721 @@
           ]
         }
       ]
+    },
+    {
+      "round_number": 6,
+      "theme": "Deep Cuts",
+      "description": "Songs that are not well-known by artists who are very well-known",
+      "songs": [
+        {
+          "rank": 1,
+          "title": "Up In Arms",
+          "artist": "Foo Fighters",
+          "album": "The Colour And The Shape",
+          "submitter": "dmdoyle1313",
+          "total_points": 14,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Jordan Katz",
+              "vote": 3,
+              "comment": "I think there\u2019s an argument that Foo Fighters is the most underrated band of all time, never heard this song but a great one for sure!"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 3,
+              "comment": "Can\u2019t go wrong with the Foo, Kevin"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": "I"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Kevin? Song gets good and jammy, but took too long to get to the good part. Nonetheless I would listen to this song"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Ehhhh"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "I had \"New Way Home\" from the same album locked in before switching. However, my last upvote was spent on a song i haven't heard, wish i had more to pay respect."
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "title": "Future Days",
+          "artist": "Pearl Jam",
+          "album": "Lightning Bolt",
+          "submitter": "Andrew Caccioppoli",
+          "total_points": 13,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 3,
+              "comment": "Sucker for a nice piano"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 2,
+              "comment": "Hadn\u2019t heard it, but great pick!"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": "This was a hard one bc it did become more popular from the video game, but was initially a deep cut track. Great song overall also, +1Dave?"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "Great find!"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Love a \"more recent\" PJ pull. I had Unfamiliar with it too. \"I Got Id\" before switching."
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Deep grungy voice Eddie Vedder isn\u2019t my favorite style, but not a bad lyrical song. Sounds like he\u2019s coming off a recent cold - Kevin or Andy?"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 0,
+              "comment": "I\u2019m"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": "Dave c"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "title": "Rosie",
+          "artist": "John Mayer",
+          "album": "The Search for Everything",
+          "submitter": "Paul Harnish",
+          "total_points": 12,
+          "voter_count": 10,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 2,
+              "comment": "Liked this song better than most of his hits.Paul?"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 2,
+              "comment": "I'm a simple man, I see John Mayer, I upvote"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 2,
+              "comment": "Paul?"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Paul"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "This song might get hate because Mayer, but Mayer is awesome and it\u2019s a great pick!"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Good one and never heard!"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "All of John Mayer is a deep track in my opinion. I\u2019m convinced he makes his songs up in the recording studio that same day. Nonetheless great sound! Just not enough upvotes (Gus or Katz)"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Love this song but bc Sho is a massive fan, I\u2019ve listened to this too many times"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "title": "Angels Workin' Overtime",
+          "artist": "Luke Combs",
+          "album": "What You See Is What You Get",
+          "submitter": "Jordan Katz",
+          "total_points": 11,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 3,
+              "comment": "Heard this song in concert so I\u2019m biased, but loved it the first time I heard it. Hes just a musical genius all around. Great pick Jordan, was only a matter of time before Luke was picked."
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "This a JAM"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": "Jordan for sure"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 0,
+              "comment": "Solid"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Don't know much Luke but good song! had no more upvotes."
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "title": "The Authority Song",
+          "artist": "Jimmy Eat World",
+          "album": "Bleed American",
+          "submitter": "Gus Johnson",
+          "total_points": 7,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Christian Carmody",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": "Have listened to this album so many times that I didnt consider this a deep cut. Alas, Spotify does not lie. +1"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": "Hard to get a deep track off this album, but this would be one for sure.Kevin?"
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Solid pick for the Jim. Good one to close the night on (Dan or Mike)"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 0,
+              "comment": "Its giving Christian"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Respect. They have a bunch of good sleepers."
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "title": "Uncle Jonny",
+          "artist": "The Killers",
+          "album": "Sam's Town",
+          "submitter": "Michael Neidhardt",
+          "total_points": 7,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "Christian Carmody",
+              "vote": 3,
+              "comment": "Always liked the killers but this made me want to go back and listen to their other stuff"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 3,
+              "comment": "Haven't heard this one and enjoyed it mucho"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Always a sucker for some Killers, Andy or Mike"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "Killers are so underrated"
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "I\u2019m probably alone on this one but Killers are a very overrated band. This one didn\u2019t capture me unfortunately (Alex or Scott)"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "title": "Map of the Problematique",
+          "artist": "Muse",
+          "album": "Black Holes and Revelations",
+          "submitter": "DJ Scarp",
+          "total_points": 6,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": "I haven't heard this song since maybe the first time i listened to this album. Great recall."
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Also been on a muse kick lately. They\u2019re just a great all around experimental sound (Paul or Dan?)"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "The instrumentals are sick on this"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 0,
+              "comment": "Gotta be Scott"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": "Great song but it was a single from the album\u2026"
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "title": "Ain't It A Shame - Demo",
+          "artist": "Nirvana",
+          "album": "Sliver - The Best Of The Box",
+          "submitter": "Christian Carmody",
+          "total_points": 5,
+          "voter_count": 4,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 2,
+              "comment": "Unrecognizable to start, then into that classic grungy by the end. Very nice"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": "Shocked I haven\u2019t heard this one"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Christian, Dave or Gus \u2014 Interesting bluegrass sound out of nirvana. This might have been a good \u201cbefore they were famous\u201d track"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 0,
+              "comment": "Technically a cover of an old folk song.. does that qualify as a deep cut?"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 0,
+              "comment": "Kurt\u2019s best, I think not but not bad"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "I wish i had more upvotes. Never heard this and listened to a lot of Nirvana back in the day."
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "title": "We Looked Like Giants",
+          "artist": "Death Cab for Cutie",
+          "album": "Transatlanticism (10th Anniversary Edition)",
+          "submitter": "Kevin O'Connell",
+          "total_points": 5,
+          "voter_count": 3,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 3,
+              "comment": "Great pick, never heard this one before and was into it from start to finish.Andy?"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 3,
+              "comment": "Need to get more into Death cab"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 0,
+              "comment": "Gave me fireflies vibes"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "I know like two songs from death cab and this makes one of them. Not a famous enough band for a \u201cdeep track\u201d (Christian or Nick based on play count)"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 0,
+              "comment": "Mike?"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "title": "Lowlife (Living the Highlife)",
+          "artist": "Kid Rock",
+          "album": "Rock n Roll Jesus",
+          "submitter": "Nick DePinho",
+          "total_points": 2,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "DJ Scarp",
+              "vote": 3,
+              "comment": "Get it Kid Rock"
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Dan? Catchy tune, I hope I don\u2019t appear on some FBI watch list for upvoting this"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "Sneaky great pick? Lmao"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Someone going deep into Kid Rock!?! Absolute Respect."
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": "\ud83d\ude02 this song is hilarious but no"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": "Anthem at a MAGA rally pick of the week"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "title": "Suicidal Thoughts - 2005 Remaster",
+          "artist": "The Notorious B.I.G.",
+          "album": "Ready to Die (The Remaster; 2015 Remaster)",
+          "submitter": "Alex Ankier",
+          "total_points": 2,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "DJ Scarp",
+              "vote": 2,
+              "comment": "Gus, my left nut is in your hands"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": "I believe Gus introduced me to this one in the Mcds parking lot in high school"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Great song but not one I\u2019d care to listen to again"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "I wish i had more upvotes."
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Sheesh, is everything going all right at home? Would definitely not let this be the last song I listen to before I go to sleep"
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "title": "All You Need Is Love",
+          "artist": "Avicii",
+          "album": "True (Bonus Edition)",
+          "submitter": "Dan Ornstein",
+          "total_points": 1,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 2,
+              "comment": "Been vibing to a lotta Avicii lately. Noice choice (Paul or Scott?)"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Dan, or Alex"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": "Not for me, but if I liked this genre, this would be a plus one minimum"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "I wish i could have shoved this downvote up my ass, but the rules of the game said no."
+            }
+          ]
+        },
+        {
+          "rank": 13,
+          "title": "Right on Time - 2014 Remaster",
+          "artist": "Red Hot Chili Peppers",
+          "album": "Californication (2014 Remaster)",
+          "submitter": "crob663",
+          "total_points": -7,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 0,
+              "comment": "So many rhcp deep cuts - almost chose one myself"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": "Love the peppers but this was just annoying \ud83d\ude02"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": "Dave?"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": "One of my least favorite RHCP songs, sorry! Justin is a big fan so I actually knew this one lol"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": "Needed another downvote and Californication is just to well known"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "I would have sat hard on this downvote if i could, but put it here for familiarity and game rules."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
