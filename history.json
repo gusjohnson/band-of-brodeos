@@ -3983,6 +3983,610 @@
           ]
         }
       ]
+    },
+    {
+      "round_number": 7,
+      "theme": "Sorry, Grandma",
+      "description": "Songs you would be embarrassed to play in front of your Grandma",
+      "songs": [
+        {
+          "rank": 1,
+          "title": "Drop 'Em Out",
+          "artist": "Wheeler Walker Jr.",
+          "album": "Redneck Shit",
+          "submitter": "Dan Ornstein",
+          "total_points": 12,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Gus Johnson",
+              "vote": 3,
+              "comment": "Yeah.. this one is awesome"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 3,
+              "comment": "An elite pick, This is on one of my buddy\u2019s golf playlist"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 3,
+              "comment": "Genuine laugh, and a genuine listen. Great choice. And Im not a huge country guy. 10/10, 3 pts for House Wheeler!"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Classic"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Always makes me smile, but all over instagram reels."
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -2,
+              "comment": "I just couldn\u2019t give a down vote to the others"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "title": "Fuck Her Gently",
+          "artist": "Tenacious D",
+          "album": "Tenacious D",
+          "submitter": "Andrew Caccioppoli",
+          "total_points": 10,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 3,
+              "comment": "Hilarious and perfect pick +3"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "A great pick"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Classic and surprisingly great vocals. Also, this seems like one of the few non googled songs lol"
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Had a lieutenant of mine (who was a tool) sing this during an open karaoke night and kind of hated this song ever since. But I\u2019m sure this is going to score well amongst our group \ud83d\ude0f"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "title": "Rape Me",
+          "artist": "Nirvana",
+          "album": "In Utero (Deluxe Edition)",
+          "submitter": "Alex Ankier",
+          "total_points": 10,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 2,
+              "comment": "Grandma would NOT approve"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 2,
+              "comment": "Christian?"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Grandma would skip, and a quality song too!"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Great song but def not the most egregious song in the lineup, would give if I had upvotes"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "title": "Gloryhole",
+          "artist": "Steel Panther",
+          "album": "All You Can Eat (Deluxe)",
+          "submitter": "Jordan Katz",
+          "total_points": 9,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Christian Carmody",
+              "vote": 3,
+              "comment": "This song had on the floor. Grandma would not be happy"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": "Genuine laugh and a genuine head bang. Lets run through the Gloryhole wall ARGGHH!!"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": "This kid I was in a band with loved these guys. First time I heard them in a while. Solid pick"
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Ank? My Jesus loving Grandma would probably throw holy water at me after seeing the album cover"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": "Andy?"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "title": "Cleanest Penis",
+          "artist": "Brooklyn Telephone Theater",
+          "album": "Sexual Hangups",
+          "submitter": "Nick DePinho",
+          "total_points": 6,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 3,
+              "comment": "Cracked me up. My guess is Nick or Gus submitted this one"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 2,
+              "comment": "This is also on one of my buddy\u2019s golf playlist"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": "Forgot this song existed"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "Hilarious"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Hilarious category fit, but do you really listen?? Are you sure about that [tim robinson meme] Are you sure about that [tim robinson meme again]"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": "Booooo!"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "title": "Fat Juicy & Wet",
+          "artist": "Sexyy Red",
+          "album": "Fat Juicy & Wet",
+          "submitter": "DJ Scarp",
+          "total_points": 5,
+          "voter_count": 4,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 2,
+              "comment": "Didn\u2019t know Bruno had this in him"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "Never heard this one. She\u2019d be very disappointed"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 0,
+              "comment": "Would upvote if I had one more. Feels like a successor to WAP."
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Grouped with a similar set of songs, had no upvotes left."
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "title": "The Kids",
+          "artist": "Eminem",
+          "album": "The Marshall Mathers LP",
+          "submitter": "crob663",
+          "total_points": 3,
+          "voter_count": 3,
+          "votes": [
+            {
+              "voter": "Alex Ankier",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": "How have I never heard this before?!"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Actually a fun listen, didnt have any upvotes left."
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "title": "WAP (feat. Megan Thee Stallion)",
+          "artist": "Cardi B",
+          "album": "WAP (feat. Megan Thee Stallion)",
+          "submitter": "Gus Johnson",
+          "total_points": 2,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Nick DePinho",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Memories from my Army softball team. Bunch of grown ass men jamming to this song on the bench during warmups. Hate this song, but good memz and definitely would be apologizing to Grandma if this one came on"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "I mean yeah\u2026I dont think any of us want to be caught listening to this"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": "Boooooo! Lib song of the week."
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": "Too obvious imo"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "Only because i knew it would be chosen lol. Like the cleanest penis song, do you really listen?? You sure about that [tim robinson meme]"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "title": "What's Your Fantasy (Featuring Shawna)",
+          "artist": "Ludacris",
+          "album": "Back For The First Time",
+          "submitter": "Michael Neidhardt",
+          "total_points": 2,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "DJ Scarp",
+              "vote": 3,
+              "comment": "Classic"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "Elite pick"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Nice song, not enough pix tho Jordan?"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Grandma would not approve, but my ears dont either lol"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": "Compared to other songs in this round, feels like a grandma could just zone out on this one and not even realize it's dirty. More suggestive language than explicit."
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "title": "Smoke Two Joints",
+          "artist": "Sublime",
+          "album": "40oz. To Freedom",
+          "submitter": "Kevin O'Connell",
+          "total_points": -1,
+          "voter_count": 3,
+          "votes": [
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Gotta be Dave, great song not enough ups"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 0,
+              "comment": "Classic.. but not sure I'd feel too guilty letting my grandma here this one"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "title": "Smokin & Drinkin",
+          "artist": "Danny Brown",
+          "album": "Old",
+          "submitter": "Christian Carmody",
+          "total_points": -5,
+          "voter_count": 4,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Great song but my grandma probably wouldn\u2019t even understand what\u2019s being song (Christian or Paul?)"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": "Not many grandma gasp-inducing words or lines in this one, tons of grandmas love drinking and smoking"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "Grandma would not approve for sure, i guess the downvote come from my ability to listen.."
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -2,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "title": "She Won't Let Me Fuck",
+          "artist": "Afroman",
+          "album": "The Good Times",
+          "submitter": "dmdoyle1313",
+          "total_points": 0,
+          "disqualified": true,
+          "original_points": 8,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 3,
+              "comment": "In"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": "Almost went with Because I got High but this was a good pick too"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "A true classic, easy vote"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Gus or Christian?"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "wish I could give it an upvote. What a G"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Grandma wont approve, i wish i had another updoot."
+            }
+          ]
+        },
+        {
+          "rank": 13,
+          "title": "Wet Dreamz",
+          "artist": "J. Cole",
+          "album": "2014 Forest Hills Drive",
+          "submitter": "Paul Harnish",
+          "total_points": -1,
+          "disqualified": true,
+          "original_points": 5,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "DJ Scarp",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Gotta give love to the Army Brat and Forest Hills prodigy"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": "Not abhorrent but really liked this one"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Quality song, and grandma wont be pleased. +1 for a genuine pick that doesn't seem to be a google pick lol"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 0,
+              "comment": "Ran out of upvotes, but liked the song"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Such a good song. Grandma would probably appreciate the vibe though."
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }

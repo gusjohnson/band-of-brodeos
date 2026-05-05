@@ -108,6 +108,7 @@ def parse_song_container(sc) -> dict | None:
     rank_card = sc.find("div", class_=re.compile(r"card mt-3 rank-\d+"))
     rank = None
     submitter = None
+    disqualified = False
     if rank_card:
         rm = re.search(r"rank-(\d+)", " ".join(rank_card.get("class", [])))
         if rm:
@@ -117,16 +118,31 @@ def parse_song_container(sc) -> dict | None:
         )
         if sub_name:
             submitter = sub_name.get_text(strip=True)
+        # When a submitter doesn't vote, Music League shows a "Did not vote" badge
+        # in their rank card and disqualifies their song (positive votes are dropped).
+        if rank_card.find(string=re.compile(r"Did not vote", re.IGNORECASE)):
+            disqualified = True
 
-    # Total points: an integer element whose parent text mentions "voter"
+    # Score: an h3 inside the col-auto text-end block (sibling of the "X voters" p).
+    # Disqualified songs render as <h3><s>{original}</s>{final}</h3> — the strike
+    # holds the would-have-been score and the bare text holds the actual final score.
     total_points = None
-    for h in sc.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "span", "div"]):
-        txt = h.get_text(strip=True)
-        if re.match(r"^-?\d+$", txt) and h is not rank_card:
-            parent_text = h.parent.get_text(" ", strip=True) if h.parent else ""
-            if "voter" in parent_text.lower():
-                total_points = int(txt)
-                break
+    original_points = None
+    score_block = sc.find("div", class_=lambda c: c and "col-auto" in c and "text-end" in c)
+    score_h3 = score_block.find("h3") if score_block else None
+    if score_h3:
+        struck = score_h3.find("s")
+        if struck:
+            struck_txt = struck.get_text(strip=True)
+            if re.match(r"^-?\d+$", struck_txt):
+                original_points = int(struck_txt)
+        # Build the final-score text from h3 children, skipping <s> content
+        final_txt = "".join(
+            "" if getattr(c, "name", None) == "s" else (c.get_text() if hasattr(c, "get_text") else str(c))
+            for c in score_h3.children
+        ).strip()
+        if re.match(r"^-?\d+$", final_txt):
+            total_points = int(final_txt)
 
     # Individual votes from footer. Each voter occupies a single .row block;
     # within it: <b> = name, <span class="text-break ws-pre-wrap"> = comment
@@ -151,16 +167,20 @@ def parse_song_container(sc) -> dict | None:
                 vote = 0
             votes.append({"voter": name, "vote": vote, "comment": comment})
 
-    return {
+    song = {
         "rank": rank,
         "title": title,
         "artist": artist,
         "album": album,
         "submitter": submitter,
         "total_points": total_points,
-        "voter_count": voter_count,
-        "votes": votes,
     }
+    if disqualified:
+        song["disqualified"] = True
+        song["original_points"] = original_points
+    song["voter_count"] = voter_count
+    song["votes"] = votes
+    return song
 
 
 def validate_songs(songs: list[dict]) -> list[str]:
@@ -175,7 +195,20 @@ def validate_songs(songs: list[dict]) -> list[str]:
             errors.append(f"Song '{s['title']}' is missing total_points.")
             continue
         vote_sum = sum(v["vote"] for v in s["votes"])
-        if vote_sum != s["total_points"]:
+        if s.get("disqualified"):
+            # Submitter didn't vote → positive votes are dropped, only negatives count.
+            negative_sum = sum(v["vote"] for v in s["votes"] if v["vote"] < 0)
+            if s["total_points"] != negative_sum:
+                errors.append(
+                    f"Song '{s['title']}' (rank {s['rank']}, disqualified): "
+                    f"final total is {s['total_points']} but sum of negative votes is {negative_sum}."
+                )
+            if s.get("original_points") is not None and vote_sum != s["original_points"]:
+                errors.append(
+                    f"Song '{s['title']}' (rank {s['rank']}, disqualified): "
+                    f"vote sum is {vote_sum} but struck-through original is {s['original_points']}."
+                )
+        elif vote_sum != s["total_points"]:
             errors.append(
                 f"Song '{s['title']}' (rank {s['rank']}): "
                 f"vote sum is {vote_sum} but reported total is {s['total_points']}."
