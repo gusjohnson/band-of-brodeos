@@ -4587,6 +4587,481 @@
           ]
         }
       ]
+    },
+    {
+      "round_number": 8,
+      "theme": "ANK\u2019S BACH",
+      "description": "Bring the heat for Ank the Tank",
+      "songs": [
+        {
+          "rank": 1,
+          "title": "The Boys Are Back In Town",
+          "artist": "Thin Lizzy",
+          "album": "Jailbreak (Deluxe Edition)",
+          "submitter": "Michael Neidhardt",
+          "total_points": 15,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Christian Carmody",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 2,
+              "comment": "Perfect track for us men coming of age"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 0,
+              "comment": "Classic"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "title": "Joker And The Thief",
+          "artist": "Wolfmother",
+          "album": "Wolfmother",
+          "submitter": "crob663",
+          "total_points": 14,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 3,
+              "comment": "Goat pick"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 3,
+              "comment": "Classic NHL soundtrack is an auto 3 pointer"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "title": "All Night Longer",
+          "artist": "Sammy Adams",
+          "album": "All Night Longer",
+          "submitter": "DJ Scarp",
+          "total_points": 9,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Nick DePinho",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": "Can\u2019t stand the song, but it\u2019s been a part of the brodeo get togethers for quite some time so it gets a +1"
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "Banger"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "title": "Old Thing Back (feat. Ja Rule and Ralph Tresvant)",
+          "artist": "Matoma",
+          "album": "Old Thing Back (feat. Ja Rule and Ralph Tresvant)",
+          "submitter": "Kevin O'Connell",
+          "total_points": 6,
+          "voter_count": 4,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 2,
+              "comment": "Genuinely enjoyed"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "title": "Another One Bites The Dust - Remastered 2011",
+          "artist": "Queen",
+          "album": "The Game (Deluxe Remastered Version)",
+          "submitter": "Nick DePinho",
+          "total_points": 6,
+          "voter_count": 3,
+          "votes": [
+            {
+              "voter": "DJ Scarp",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 2,
+              "comment": "One of the best Queen songs"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "title": "Ooh Wee (feat. Ghostface Killah, Nate Dogg, Trife & Saigon)",
+          "artist": "Mark Ronson",
+          "album": "Here Comes The Fuzz",
+          "submitter": "Christian Carmody",
+          "total_points": 4,
+          "voter_count": 4,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "title": "One More Time",
+          "artist": "Daft Punk",
+          "album": "Discovery",
+          "submitter": "Gus Johnson",
+          "total_points": 4,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Low key hate this song"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "title": "Last Night",
+          "artist": "Morgan Wallen",
+          "album": "One Thing At A Time",
+          "submitter": "Alex Ankier",
+          "total_points": 2,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Jordan Katz",
+              "vote": 3,
+              "comment": "Someone played to their audience lmao"
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "title": "Pink Pony Club",
+          "artist": "Chappell Roan",
+          "album": "The Rise and Fall of a Midwest Princess",
+          "submitter": "Andrew Caccioppoli",
+          "total_points": -4,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 0,
+              "comment": "Who trolled?Paul?"
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Boooo"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -2,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -2,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -2,
+              "comment": "\ud83d\udc4e\ud83c\udffb\ud83d\udc4e\ud83c\udffb"
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "title": "Broadway Girls (feat. Morgan Wallen)",
+          "artist": "Lil Durk",
+          "album": "Broadway Girls (feat. Morgan Wallen)",
+          "submitter": "Jordan Katz",
+          "total_points": -4,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "title": "Magic Carpet Ride",
+          "artist": "Steppenwolf",
+          "album": "The Second",
+          "submitter": "Paul Harnish",
+          "total_points": 0,
+          "disqualified": true,
+          "original_points": 8,
+          "voter_count": 4,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 3,
+              "comment": "Support and love for my playing partner"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }
