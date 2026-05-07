@@ -735,7 +735,16 @@ function renderRankChart(standings, allPlayers) {
       plugins: {
         legend: {
           position: 'right',
-          labels: { color: colors.text, font: { size: 12 }, boxWidth: 12, padding: 8 }
+          labels: { color: colors.text, font: { size: 12 }, boxWidth: 12, padding: 8 },
+          onClick: (e, legendItem, legend) => {
+            const chart = legend.chart;
+            const clickedIndex = legendItem.datasetIndex;
+            const allHidden = chart.data.datasets.every((ds, i) => i === clickedIndex || !chart.isDatasetVisible(i));
+            chart.data.datasets.forEach((ds, i) => {
+              chart.setDatasetVisibility(i, allHidden || i === clickedIndex);
+            });
+            chart.update();
+          }
         },
         tooltip: {
           callbacks: {
