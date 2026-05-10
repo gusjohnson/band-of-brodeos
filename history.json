@@ -5630,6 +5630,716 @@
           ]
         }
       ]
+    },
+    {
+      "round_number": 10,
+      "theme": "Story Time",
+      "description": "Songs that tell a story",
+      "songs": [
+        {
+          "rank": 1,
+          "title": "Hurricane",
+          "artist": "Bob Dylan",
+          "album": "Desire",
+          "submitter": "dmdoyle1313",
+          "total_points": 16,
+          "voter_count": 10,
+          "votes": [
+            {
+              "voter": "Christian Carmody",
+              "vote": 3,
+              "comment": "Really enjoyed the song and the story. Check and check"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 2,
+              "comment": "Good one"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 2,
+              "comment": "Great song."
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "One of the best storytellers of all time"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Bob Dylan is an expert songwriter for lullabies, but enjoyed this one"
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "Mr Millar\u2019s class 10th grade. People said I looked like him but he shaved his sideburns far too short. Anyways this song actually kind of sucks, great story, but Bob Dylan just over here cramming a thousand words into a stanza just to make the story fit. Pshhh. this gets my lib vote of the week. This song will win though (Andrew/Scott)"
+            }
+          ]
+        },
+        {
+          "rank": 2,
+          "title": "Stan",
+          "artist": "Eminem",
+          "album": "The Marshall Mathers LP",
+          "submitter": "Nick DePinho",
+          "total_points": 13,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Gus Johnson",
+              "vote": 3,
+              "comment": "Probably one of the most original ways to tell a story through song. Eminem at the top of his game."
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 3,
+              "comment": "Eminem might be an auto downvote but this song was a historic bit of storytelling in rap and deserves flowers, argue with a wall \ud83e\udd23"
+            },
+            {
+              "voter": "crob663",
+              "vote": 2,
+              "comment": "To counter the Dave hate. This is a great story teller"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 2,
+              "comment": "Y\u2019all are crazy. This song is and always will be the GOAT of storytelling in a song.  Such an original concept."
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Great song people below me are sheeple."
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "This one does NOT deserve negatives imo, I didn\u2019t have enough ups"
+            }
+          ]
+        },
+        {
+          "rank": 3,
+          "title": "Brandy (You're a Fine Girl)",
+          "artist": "Looking Glass",
+          "album": "Looking Glass",
+          "submitter": "Paul Harnish",
+          "total_points": 11,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 2,
+              "comment": "Nothing to be said, just a classic"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Good upbeat song choice Paul"
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": "Br-ANDY"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Some songs only meant to be played at weddings"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "Listen, it\u2019s a category fit, I would just skip it over the others lol"
+            }
+          ]
+        },
+        {
+          "rank": 4,
+          "title": "Paradise By the Dashboard Light",
+          "artist": "Meat Loaf",
+          "album": "Bat Out Of Hell",
+          "submitter": "Jordan Katz",
+          "total_points": 8,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 3,
+              "comment": "Fun fact: Meatloaf was my first concert ever. Proceeding all 5 foo shows and more. This songs an experience."
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "Clarissa will be super mad to find out somebody else picked this one when I could have (Kevin)"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "This song had me all over the place. Listened twice.  Loved it hated it then liked it then got tired of it."
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 5,
+          "title": "Date Rape",
+          "artist": "Sublime",
+          "album": "40oz. To Freedom",
+          "submitter": "Gus Johnson",
+          "total_points": 7,
+          "voter_count": 9,
+          "votes": [
+            {
+              "voter": "crob663",
+              "vote": 3,
+              "comment": "Great story and Song. (Dave or Gus with the Sublime entry??)"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "Haven\u2019t heard this is so long. It\u2019s a jam and an a classic"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": "Interesting choice but fits the category"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "Did not expect this here, but it\u2019s a good listen AND category fit. Bingo bango. Had to give 2nd place to Pearl Jam"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": "Ear rape is a better name for this song."
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": "Sublime has never been my favorite and I needed a down vote, sorry!"
+            }
+          ]
+        },
+        {
+          "rank": 6,
+          "title": "The General",
+          "artist": "DISPATCH",
+          "album": "Bang Bang",
+          "submitter": "Kevin O'Connell",
+          "total_points": 7,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 3,
+              "comment": "This is such a jam that came in from left field amongst this playlist, pure gold"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 1,
+              "comment": "This song appeals to me clearly, also very unique and unheard of by me. Great pick!"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Always dug the song but truly don\u2019t get the story."
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 7,
+          "title": "Next Thing You Know",
+          "artist": "Jordan Davis",
+          "album": "Bluebird Days",
+          "submitter": "Dan Ornstein",
+          "total_points": 7,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Alex Ankier",
+              "vote": 3,
+              "comment": null
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 3,
+              "comment": "If a Dad did not post this I\u2019d consider this stolen valor."
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 2,
+              "comment": "One of my favorite songs, Jordan Davis is an elite storyteller"
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Sentimental. Can obviously relate.  But I was looking for originality."
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 0,
+              "comment": "A good story requires conflict, which this had none of"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Good listen, I upvotes just go away too fast"
+            },
+            {
+              "voter": "crob663",
+              "vote": -1,
+              "comment": "So many better country story tellers to choose from"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": "Victim of a great playlist"
+            }
+          ]
+        },
+        {
+          "rank": 8,
+          "title": "The Devil Went Down to Georgia",
+          "artist": "The Charlie Daniels Band",
+          "album": "A Decade Of Hits",
+          "submitter": "Alex Ankier",
+          "total_points": 6,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "dmdoyle1313",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "Always loved this song and you know I got a special place in myHeart for the fiddle"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "A classic"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Love this pick for a story telling song, just too many other choices"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 0,
+              "comment": "I had more fun playing this in Guitar Hero than listening to it"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 0,
+              "comment": "Good song, not enough upvotes"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 0,
+              "comment": "Ran out of upvotes and to cliche"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": -1,
+              "comment": "20 years ago, possible 3 ptr. But guitar hero killed it I can\u2019t anymore lol"
+            }
+          ]
+        },
+        {
+          "rank": 9,
+          "title": "The Ballad of Billy the Kid",
+          "artist": "Billy Joel",
+          "album": "Piano Man (Legacy Edition)",
+          "submitter": "crob663",
+          "total_points": 5,
+          "voter_count": 6,
+          "votes": [
+            {
+              "voter": "Paul Harnish",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 1,
+              "comment": "A jam and a fun story"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": 1,
+              "comment": "Another elite storyteller"
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": 1,
+              "comment": "I had Scenes from an Italian Restaurant and Miami 2017 ahead of this one but Billy is the OG story teller"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Good listen, no ups left hi"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": null
+            }
+          ]
+        },
+        {
+          "rank": 10,
+          "title": "7 Years",
+          "artist": "Lukas Graham",
+          "album": "Lukas Graham",
+          "submitter": "Andrew Caccioppoli",
+          "total_points": 5,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "Michael Neidhardt",
+              "vote": 2,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": 2,
+              "comment": "Great pick for the theme"
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 1,
+              "comment": "+1 for recency and good listen/story"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Meh this will probably score well with our group"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": 0,
+              "comment": "Don\u2019t care of the ballad act but it is sentimental and appreciate that"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": 0,
+              "comment": "Z100, not bad though"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": "Borderline cringe at times"
+            }
+          ]
+        },
+        {
+          "rank": 11,
+          "title": "Toes",
+          "artist": "Zac Brown Band",
+          "album": "The Foundation",
+          "submitter": "DJ Scarp",
+          "total_points": -1,
+          "voter_count": 7,
+          "votes": [
+            {
+              "voter": "Dan Ornstein",
+              "vote": 3,
+              "comment": "Katz +3 because I\u2019d actually listen to this song"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 1,
+              "comment": "Have an upvote"
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Vibes song, I would say it\u2019s less of a story being told and more of an immersive experience. But we don\u2019t have rule followers in this group so this might score well"
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Never paid attention to the story when I was hammered in college, not enough ups left"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": "Wouldn\u2019t it be fuckin nice to have my ass in the sand right now. Fuck off ZBD"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": "Banger but is it a story\u2026. idkkkkk Jim (Tony romo voice)"
+            },
+            {
+              "voter": "Jordan Katz",
+              "vote": -1,
+              "comment": "This is an amazing song, idk about it fitting the category tho!"
+            }
+          ]
+        },
+        {
+          "rank": 12,
+          "title": "Last Kiss",
+          "artist": "Pearl Jam",
+          "album": "Last Kiss",
+          "submitter": "Christian Carmody",
+          "total_points": -3,
+          "voter_count": 8,
+          "votes": [
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 2,
+              "comment": "Love this one"
+            },
+            {
+              "voter": "dmdoyle1313",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "No hate for Pearl Jam but you should have gone with a PJ original, like Jeremy!!! (Kevin)"
+            },
+            {
+              "voter": "Michael Neidhardt",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Alex Ankier",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Dan Ornstein",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": -1,
+              "comment": "Not a fan.. just can't come around to Pearl Jam"
+            },
+            {
+              "voter": "DJ Scarp",
+              "vote": -1,
+              "comment": "Booooo!"
+            }
+          ]
+        },
+        {
+          "rank": 13,
+          "title": "Believe",
+          "artist": "Yellowcard",
+          "album": "Ocean Avenue",
+          "submitter": "Michael Neidhardt",
+          "total_points": -3,
+          "voter_count": 5,
+          "votes": [
+            {
+              "voter": "Dan Ornstein",
+              "vote": 1,
+              "comment": null
+            },
+            {
+              "voter": "crob663",
+              "vote": 0,
+              "comment": "Not a bad song, just not sure of the story being told"
+            },
+            {
+              "voter": "Gus Johnson",
+              "vote": 0,
+              "comment": "Prob would've given an upvote if I had one more."
+            },
+            {
+              "voter": "Kevin O'Connell",
+              "vote": 0,
+              "comment": "Solid song, just didn\u2019t have enough story upvotes left"
+            },
+            {
+              "voter": "Christian Carmody",
+              "vote": -1,
+              "comment": "I think someone failed to read the category. I don\u2019t BELIEVE there\u2019s a story here!"
+            },
+            {
+              "voter": "Nick DePinho",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Paul Harnish",
+              "vote": -1,
+              "comment": null
+            },
+            {
+              "voter": "Andrew Caccioppoli",
+              "vote": -1,
+              "comment": "Who let their wife pick?"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
